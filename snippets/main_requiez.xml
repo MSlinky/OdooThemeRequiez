@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="parallax_mouse" name="Parallax mouse">
+    <section class="parallax_mouse">
+      
+    </section>
+  </template>
+
+  <template id="place_into_bar" inherit_id="website.snippets" name="Parallax mouse">
+    <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+      <t t-snippet="theme_requiez.parallax_mouse"
+         t-thumbnail="/theme_requiez/static/src/img/ui/snippet_thumb.jpg"/>
+    </xpath>
+  </template>
+
+
+  <template id="materialize_style" name="style_materialize" inherit_id="website.assets_frontend">
+      <xpath expr="link[last()]" position="after">
+          <link  href="/theme_requiez/static/css/animate.css" rel="stylesheet" type="text/css"/>
+      </xpath>
+  </template>
+
+  <template id="materialize_script" name="script_materialize" inherit_id="website.assets_frontend">
+    <xpath expr="." position="inside">
+        <script type="text/javascript" src="/theme_requiez/static/parallaxJS/node_modules/parallax-js/dist/parallax.min.js"></script>
+    </xpath>
+  </template>
+
+</odoo>

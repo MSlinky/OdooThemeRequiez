@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <template id="theme_requiez_header" name="Theme_requiez_header" inherit_id="website.layout">
+    <xpath expr="//div[@id='wrapwrap']/header" position="replace">
+      <header t-att-class=" 'editable_mode' if editable else '' ">
+        <div class="navbar-fixed">
+          <nav class="nav-page" role="navigation">
+            <div class="container nav-wrapper">
+              <a href="/" class="brand-logo"><img class="ico-nav" src="/theme_requiez/static/img/logo_grupo_requiez.png"/> </a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                  <t t-call="website.submenu" />
+                </t>
+                <li class="divider" groups="base.group_user,base.group_portal" t-ignore="true" />
+                <li>
+                  <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                    <b>
+                      <span t-esc="user_id.name" />
+                      <span class="caret"></span>
+                    </b>
+                    <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                </li>
+                <ul id="dropdown1" class="dropdown-content" role="menu">
+                  <li>
+                    <a href="/web" role="menuitem">My Account</a>
+                  </li>
+                  <li class="divider" />
+                  <li>
+                    <a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </xpath>
+  </template>
+</odoo>
