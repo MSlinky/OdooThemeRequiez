@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <template name="Marcas" id="marcas">
+    <t t-call="website.layout">
+      <div id="wrap">
+
+        <div class="oe_structure"/>
+
+        <style type="text/css">
+          .img-marca{
+            width: 100%;
+          }
+          .nopadding{
+            padding: 0;
+          }
+          .img-marca {
+            width: 100%;
+          }
+
+          h1{
+              font-weight: bold;
+              color: #333;
+              font-size: 50px;
+              letter-spacing: -0.04em;
+              text-transform: uppercase;
+              color: #333;
+              margin: 0;
+            }
+            h1 {
+              width: 90%;
+              white-space: nowrap;
+              line-height: 105%;
+            }
+            h1 .light {
+              color: #ccc;
+              font-weight: 300;
+            }
+
+            h1.center{
+              margin-right: 0;
+              text-align: center;
+              width: 100%;
+            }
+            @media (max-width: 768px){
+              h1{
+                font-size: 32px;
+              }
+            }
+        </style>
+
+        <div class="container">
+          <h1 style="text-align: center;"><t t-raw="nombreMarca['urlLogo']"/></h1>
+          
+          <div style="text-align: right;font-size: 1.3em;">Página web: <t t-raw="nombreMarca['webname']"/> </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-6" style="text-align: justify;font-size: 1.4em;font-size: 16px;">
+              <h2 style="text-align: center;font-size: 48px;"><h1><t t-raw="nombreMarca['title']"/> </h1></h2>
+              <t t-raw="nombreMarca['content']"/>
+            </div>
+            <div class="col-sm-6 col-md-6 nopadding content-grid-img">
+                <div class="col-md-12 nopadding" >
+                  <t t-raw="nombreMarca['img'][0]"/>
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <t t-raw="nombreMarca['img'][1]"/>
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <t t-raw="nombreMarca['img'][2]"/>
+                </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </t>
+  </template>
+  <record id="services_page_marcas" model="website.page">
+    <field name="name">Marcas</field>
+    <field name="website_published">True</field>
+    <field name="url">/Marcas</field>
+    <field name="view_id" ref="marcas"/>
+    <field name="sequence" type="int">2</field>
+  </record>
+
+</odoo>

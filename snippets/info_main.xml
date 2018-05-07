@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="info_main" name="Info compement main">
+    <section class="info_main">
+      <div class="container" style="margin-bottom: 20px;">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 nopadding">
+                <h1 class="fittext">
+                  <span class="light">Cada </span>Experiencia<br/>
+                  <span class="light">es una</span> Historia <br/>
+                  <span class="light">que</span><span class="light">no se parece<br/> 
+                  a ninguna</span>
+                </h1>
+
+                <p class="p-left">Los sueños se convierten en ambiciosos proyectos; las horas de desvelo, en satisfacción; y momentos triviales, en vivencias que perduran en la memoria. Y detrás de su caprichosa construcción, están las manos y mentes de personas que concibieron, diseñaron y ensamblaron el inicio de esas nuevas experiencias colectivas.</p>
+
+                <p class="p-left">Grupo Reqüiez, orgullosamente mexicano, ha dejado huella en la industria del mobiliario para oficinas, contract y colectividad. Desde las empresas más prominentes hasta los hogares más selectos, nuestra presencia indiscutible en las principales ciudades del país se debe a la filosofía que nos ha guiado durante todo nuestro camino: sabiduría creativa, pensamiento positivo y tenacidad inquebrantable. Estos valores están presentes en todas las relaciones establecidas con nuestros clientes, empleados y socios comerciales.</p>
+            </div>
+            <div class="col-sm-6 col-md-6 nopadding content-grid-img">
+                <div class="col-md-12 nopadding" >
+                  <img src="/theme_requiez/static/img/index/_MG_7368.jpg" />
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <img src="/theme_requiez/static/img/index/_MG_7394.jpg" />
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <img src="/theme_requiez/static/img/index/_MG_7423.jpg" />
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <img src="/theme_requiez/static/img/index/_MG_7449.jpg" />
+                </div>
+                <div class="col-md-6 nopadding">
+                  <img src="/theme_requiez/static/img/index/_MG_7465.jpg" />
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 nopadding">
+              <div class="col-md-6 nopadding">
+                <img style="width: 100%;    height: 585px;" src="/theme_requiez/static/img/index/DSC_0041.JPG" />
+              </div>
+              <div class="col-md-6 nopadding">
+                <div>
+                  <img style="width: 100%;" src="/theme_requiez/static/img/index/DSC_0056.JPG" />
+                </div>
+                <div>
+                  <img style="width: 100%;" src="/theme_requiez/static/img/index/_MG_7480.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 nopadding"
+            >
+              <h1 class="fittext center">
+                  Instalaciones
+                </h1>
+
+                <p class="p-right">Lo esencial en la trayectoria de Grupo Reqüiez es su capital humano; más de 167 las personas que todos los días dan lo mejor de sí para hacer de cada una de nuestras líneas la mejor en el mercado, con sus conocimientos, su entrega y su dedicación.</p>
+
+                <p class="p-right">Nosotros trabajamos en el desarrollo de la persona, tanto a nivel personal y humano, como en el profesional. El respeto es fundamental para nuestra empresa; damos espacio a la creatividad y la inventiva de nuestro personal, detonando así su crecimiento y la oportunidad de dejar su granito de arena en la construcción de una empresa más eficiente, pero siempre más humana.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+  </template>
+
+  <template id="place_into_info" inherit_id="website.snippets" name="Info complement main">
+    <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+      <t t-snippet="theme_requiez.info_main"
+         t-thumbnail="/theme_requiez/static/src/img/ui/snippet_thumb.jpg"/>
+    </xpath>
+  </template>
+</odoo>

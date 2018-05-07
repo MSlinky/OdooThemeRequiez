@@ -6,303 +6,204 @@
 
         <div class="oe_structure"/>
 
-          <div>
-            <style type="text/css">
-              #wrap{
-                overflow: hidden;
-                width: 100%;
-              }
-            
-              #scene{
-                position: relative;
-              }
-              .content-marcas-main{
-                position: relative;
-              }
-              .main-marcas{
-                position: absolute;
-                top: calc(50% - 180px);
-                width: 122px;
-              }
-              .SliderBar-selector {
-                  margin: 10px 0;
-                  padding: 15px 0;
-                  width: 50%;
-                  height: 14px;
-                  position: relative;
-                  cursor: pointer;
-              }
-              .SliderBar-selector-line {
-                height: 1px;
-                width: 30px;
-                padding-left: 53px;
-                background-color: red;
-                position: absolute;
-                top: 3.5px;
-                left: 0;
-                transform: scaleX(0);
-                transform-origin: left center;
-                transition: all 0.3s;
-                font-weight: bold;
-                line-height: 2.5;
-              }
-              .SliderBar-selector:hover .SliderBar-selector-line {
-                transform: scaleX(1);
-              }
-              .SliderBar-selector.is-selected .SliderBar-selector-line {
-                transform: scaleX(1);
-              }
-              .SliderBar-selector-dot {
-                height: 8px;
-                width: 8px;
-                border-radius: 12px;
-                background-color: red;
-                position: absolute;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                left: auto;
-              }
-              .SliderBar-selector:nth-child(1) .SliderBar-selector-dot, .SliderBar-selector:nth-child(1) .SliderBar-selector-line {
-                color: #e64564;
-                background-color: #e64564;
-              }
-              .SliderBar-selector:nth-child(2) .SliderBar-selector-dot, .SliderBar-selector:nth-child(2) .SliderBar-selector-line {
-                color: #a93350;
-                background-color: #a93350;
-              }
-              .SliderBar-selector:nth-child(3) .SliderBar-selector-dot, .SliderBar-selector:nth-child(3) .SliderBar-selector-line {
-                color: #e73b39;
-                background-color: #e73b39;
-              }
-              .SliderBar-selector:nth-child(4) .SliderBar-selector-dot, .SliderBar-selector:nth-child(4) .SliderBar-selector-line {
-                color: #000;
-                background-color: #000;
-              }
-              .SliderBar-selector:nth-child(5) .SliderBar-selector-dot, .SliderBar-selector:nth-child(5) .SliderBar-selector-line {
-                color: #1a5848;
-                background-color: #1a5848;
-              }
-
-
-
-              .background-animates{
-                position: absolute;
-                height: calc(100vh - 100px);
-              }
-              .background-animates > *{
-                position: absolute;
-              }
-
-              .element1 {
-                animation-duration: 1s;
-                animation-delay: .3s;
-              }
-              .element2 {
-                animation-duration: 1s;
-                animation-delay: .5s;
-              }
-              .element3 {
-                animation-duration: 1s;
-                animation-delay: .7s;
-              }
-
-              .nopadding {
-                padding: 0 !important;
-                margin: 0 !important;
-              }
-              .content-grid-img img{
-                width: 100%;
-              }
-              .container-images{
-                overflow: hidden;
-              }
-
-              .container-img{
-
-              }
-            </style>
-
-            <div class="content-marcas-main">
-
-              <div class="main-marcas">
-                <div class="SliderBar-content">
-                  <div id="requiez" class="event-marca SliderBar-selector is-selected">
-                    <div class="SliderBar-selector-line">Requiez</div>
-                    <div class="SliderBar-selector-dot"></div>
-                  </div>
-                  <div id="labenze" class="event-marca SliderBar-selector">
-                    <div class="SliderBar-selector-line">Labenze</div>
-                    <div class="SliderBar-selector-dot"></div>
-                  </div>
-                  <div id="okamura" class="event-marca SliderBar-selector">
-                    <div class="SliderBar-selector-line">Okamura</div>
-                    <div class="SliderBar-selector-dot"></div>
-                  </div>
-                  <div id="infiniti" class="event-marca SliderBar-selector">
-                    <div class="SliderBar-selector-line">Infiniti</div>
-                    <div class="SliderBar-selector-dot"></div>
-                  </div>
-                  <div id="quadrifoglio" class="event-marca SliderBar-selector">
-                    <div class="SliderBar-selector-line">Quadrifoglio</div>
-                    <div class="SliderBar-selector-dot"></div>
-                  </div>
-                </div>
+        <section class="count_teams">
+          <div id="contadores" class="container" style="margin-top: 50px;">
+            <div class="row">
+              <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
+                <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_883920_cc.png" />
+                <span class="counter1" style="font-size: 100px; display: block;color:#875f80;">0</span>
+                <div style="font-size: 35px;margin-top: -30px;">Trabajadores</div>
               </div>
-
-              
+              <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
+                <img style="width: 60px;" src="/theme_requiez/static/img/index/add.svg" />
+              </div>
+              <div class="col-sm-4 col-md-4 nopadding" style="text-align: center;">
+                <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/MEXICOicon.png" />
+                <span class="counter2" style="font-size: 100px; display: block;color:#875f80;">0</span>
+                <div style="font-size: 35px;margin-top: -30px;">Plantas de trabajo</div>
+              </div>
+              <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
+                <img style="width: 60px;" src="/theme_requiez/static/img/index/add.svg" />
+              </div>
+              <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
+                <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_694978_cc.png" />
+                <span class="counter3" style="font-size: 100px; display: block;color:#875f80;">0</span>
+                <div style="font-size: 35px;margin-top: -30px;">Distribuidores en el país</div>
+              </div>
             </div>
           </div>
-
-
-          <style type="text/css">
-            h1{
-              font-weight: bold;
-              font-family: "Benton Sans";
-              color: #333;
-              font-size: 100px;
-              letter-spacing: -0.04em;
-              text-transform: uppercase;
-              color: #333;
-            }
-            h1 {
-              width: 90%;
-              white-space: nowrap;
-              line-height: 105%;
-            }
-            h1 .light {
-                font-family: "Benton Sans Light";
-                color: #ccc;
-                font-weight: 300;
-            }
-
-            p{
-              font-family: "Benton Sans Book";
-              font-size: 25px;
-              line-height: 29px;
-              margin-bottom: 29px;
-              text-align: justify;
-              padding-right: 43px;
-            }
-        </style>
-        <div class="container">
+        </section>
+        
+        <div id="vaores" class="container" style="margin-top: 50px;">
           <div class="row">
-            <div class="col-md-6 nopadding">
-                <h1 class="fittext" style="font-size: 70px;">
-                  <span class="light">Cada </span><br/>
-                  Experiencia <span class="light">es<br/>
-                  una</span> Historia <br/>
-                  <span class="light" style="font-size: 41px;position: relative;top: -22px;">que no se parece a ninguna</span>
-                </h1>
-
-                <p>Desde el respaldo de una silla, grandes ideas toman su curso. Los sueños se convierten en ambiciosos proyectos; las horas de desvelo, en satisfacción; y momentos triviales, en vivencias que perduran en la memoria. Y detrás de su caprichosa construcción, están las manos y mentes de personas que concibieron, diseñaron y ensamblaron el inicio de esas nuevas experiencias colectivas.</p>
-
-                <p>Grupo Reqüiez, orgullosamente mexicano, ha dejado huella en la industria del mobiliario para oficinas, contract y colectividad. Desde las empresas más prominentes hasta los hogares más selectos, nuestra presencia indiscutible en las principales ciudades del país se debe a la filosofía que nos ha guiado durante todo nuestro camino: sabiduría creativa, pensamiento positivo y tenacidad inquebrantable. Estos valores están presentes en todas las relaciones establecidas con nuestros clientes, empleados y socios comerciales.</p>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="paper">
+                <h2>Valores</h2>
+                <p>Somos una empresa que encuentra en la innovación su punto de partida: innovación en diseño y manufactura, en procesos de comer cialización y atención a clientes; innovación en sustentabilidad de nuestros materiales, en relaciones estrechas con nuestro personal, y en cada uno de nuestros esfuerzos, pequeños o grandes,que todos los días hacemos para estar siempre un paso adelante.</p>
+              </div>
             </div>
-            <div class="col-md-6 nopadding content-grid-img" style="background-color: pink;">
-                <div class="col-md-12 nopadding">
-                  <img src="http://app.stikwood.com/uploads/03/06/stikwood-reclaimed-planks-700x600.jpg?token=f1205086f51f83a720e84cc395a4686f" />
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="paper">
+                <h2>Mision</h2>
+                <p>Fabricamos y proveemos muebles para oficina, contract y colectividad, proporcionando a nuestros clientes productos y servicios de calidad e innovación, generando beneficios consistentes a nuestros grupos de interes, basados en la creatividad, el compromiso y la integración del personal, todo ello por medio de tecnología y capacitación de vanguardia.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="paper">
+                <h2>Vision</h2>
+                <p>Ser la fuerza dominante del mercado de muebles para oficina, contract y colectividad en los segmentos que seleccionamos servir, satisfaciendo las espectativas de nuestros clientes y grupos de interés.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="paper">
+                <h2>Objetivos de calidad</h2>
+                <p>
+                    - Trabajo en equipo <br/>
+                    - Calidad  <br/>
+                    - Servicio <br/>
+                    - Compromiso <br/>
+                    - Responsabilidad <br/>
+                    - Innovación <br/>
+                    - Honestidad <br/>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="historia" style="margin-top: 25px;">
+          <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <h4>1982</h4>
+                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logo_grupo_requiez.png" /></span>
+                  <div class="title">Nace Grupo Reqüiez</div>
+                  <div class="info">
+                    Nace Grupo Requiez como una empresa dedicada a la distribución de productos para ingeniería y dibu
+                  </div>
                 </div>
-                <div class="col-md-6 nopadding" >
-                  <img src="http://app.stikwood.com/uploads/02/00/stikwood-barrels-reclaimed-source-350x350.jpg?token=e38bc47f89b3681ee3b3ee0acdc6637f" />
+                <div class="item">
+                  <h4>1990</h4>
+                  <div class="title">Diversificación</div>
+                  <div class="info">La empresa se diversifica y crea la división de sillería: La marca Reqüiez es la primera línea del Grupo, la cual logra posicionarse como líder en el mercado.</div>
                 </div>
-                <div class="col-md-6 nopadding">
-                  <img src="http://app.stikwood.com/uploads/05/01/samples-350x350.png?token=f24ec647780b4ec88877f50563a7b8f0" />
+                <div class="item">
+                  <h4>1999</h4>
+                  <div class="title">Primera planta para la fabricación de estructuras metálicas</div>
+                  <div class="info">Se establece la primera planta para la fabricación de estructuras metálicas para sillas, y desde entonces, el crecimiento de nuestra actividad industrial no se ha visto interrumpido, con maquinaría de última generación para casi todos los procesos productivos, y modelos exclusivos que combinan elegancia y funcionalidad.</div>
                 </div>
-                <div class="col-md-6 nopadding" >
-                  <img src="http://app.stikwood.com/uploads/15/11/Stikwood-58-350x350.jpg?token=1a771a0e16a507e8b35155b4f5eda49a" />
+                <div class="item">
+                  <h4>2000</h4>
+                  <div class="title">Crecimiento de instalaciones</div>
+                  <div class="info">Debido a la gran demanda de producto, crecen nuestras instalaciones para aumentar la capacidad de almacenaje y hacer efectivos nuestros procesos. Se da la bienvenida a nueva planta en Belenes Norte, en Zapopan.</div>
                 </div>
-                <div class="col-md-6 nopadding">
-                  <img src="http://app.stikwood.com/uploads/02/00/stikwood-barrels-reclaimed-source-350x350.jpg?token=e38bc47f89b3681ee3b3ee0acdc6637f" />
+                <div class="item">
+                  <h4>2002</h4>
+                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoEuroseat.png" /></span>
+                  <div class="title">Euroseat</div>
+                  <div class="info">Nace la marca Euroseat, la cual ofrece al mercado productos exclusivamente italianos en espacios de colectividad y oficinas personalizadas.</div>
+                </div>
+                <div class="item">
+                  <h4>2006</h4>
+                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoLabenze-min.png" /></span>
+                  <div class="title">Labenze</div>
+                  <div class="info">Como resultado de la búsqueda de sillería exclusiva con firma de diseñadores europeos, se introduce la marca Labenze al Grupo.</div>
+                </div>
+                <div class="item">
+                  <h4>2010</h4>
+                  <div class="title">Nuevas instalaciones</div>
+                  <div class="info">Se integra la línea de pintura electroestática en la planta de Metalmecánica, con tecnología de punta que permite obtener resultados a un máximo nivel de calidad e imagen de nuestros productos.</div>
+                </div>
+                <div class="item">
+                  <h4>2012</h4>
+                  <div class="title">Almacen en la Ciudad de México</div>
+                  <div class="info">Requerido por la distribución en toda la república mexicana se realiza la apertura del almacen en la Ciudad de México.</div>
+                </div>
+                <div class="item">
+                  <h4>2013</h4>
+                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/okamrua_logo-min.png" /></span>
+                  <div class="title">Okamura</div>
+                  <div class="info">Grupo Requiez incorpora a una nueva línea de sillera de origen Japonés: Okamura, dando continuidad a la búsqueda de eficiencia y diseño que nos caracteriza.</div>
+                </div>
+                <div class="item">
+                  <h4>2015</h4>
+                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoInfiniti.png" /></span>
+                  <div class="title">Infiniti</div>
+                  <div class="info">Se incorpora Infiniti, la marca italiana de alto diseño, como una propuesta para el mercado Contract de alto nivel.</div>
+                </div>
+                <div class="item">
+                  <h4>2016</h4>
+                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/esr-logo.png" /></span>
+                  <div class="title">Empresa Socialmente Responsable</div>
+                  <div class="info">La obtención del distintivo de empresa socialmente responsable ESR, se hace presente gracias a la contribución activa y voluntaria del Grupo, para mejorar el entorno social, económico y ambiental en el que se desenvuelve. A la par, se activan las oficinas administrativas en la Ciudad de México.</div>
+                </div>
+                <div class="item">
+                  <h4>2017</h4>
+                  <div class="title">Nuevas oficinas y planta</div>
+                  <div class="info">Nuevas instalaciones de Corporativo en Urban Center Guadalajara y planta Operativa en el Centro Logístico Jalisco, en el municipio de Acatlán; espacios inteligentes adecuados al crecimiento y necesidades de nuestros consumidores. Se introduce la línea italiana de mobiliario, iluminación y accesorios Quadrifoglio, sumando valor al Grupo.</div>
+                </div>
+                <div class="item">
+                  <h4>2017</h4>
+                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/quadrifoglio.jpg" /></span>
+                  <div class="title">Quadrifoglio</div>
+                  <div class="info">Se incorpora Quadrifoglio, marca italiana de alto diseño.  Diseña y fabrica muebles para oficina, ofreciendo la mejor relación calidad - precio. Mesas de despacho direccionales y puestos de trabajo, recepción, salas de reuniones, almacenamiento y accesorios.</div>
                 </div>
             </div>
           </div>
         </div>
 
 
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 nopadding">
-              <div class="col-md-6 nopadding" style="background-color: red;">
-                
-              </div>
-              <div class="col-md-6 nopadding" style="background-color: black;">
-                <div style="background-color: yellow;">dfdsfdsfsd</div>
-                <div style="background-color: brown;">sdfdsfdsfdfsd</div>
-              </div>
-            </div>
-            <div class="col-md-6 nopadding" style="background-color: pink;">
-              
-            </div>
-          </div>
-        </div>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:false,
+                margin:10,
+                nav:true,
+                dots: false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+
+            console.log('main.js?ver=0.0.24');
+
+            var cont1 = new contadores();
+            cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
+            cont1.doCont();
 
 
-        <div id="contadores" class="container">
-          <div class="row">
-            <div class="col-md-4 nopadding" style="text-align: center;">
-              <span class="counter1" style="font-size: 100px;">0</span>
-              <div style="font-size: 35px;margin-top: -30px;">Trabajadores</div>
-            </div>
-            <div class="col-md-4 nopadding" style="text-align: center;">
-              <span class="counter2" style="font-size: 100px;">0</span>
-              <div style="font-size: 35px;margin-top: -30px;">Plantas de trabajo</div>
-            </div>
-            <div class="col-md-4 nopadding" style="text-align: center;">
-              <span class="counter3" style="font-size: 100px;">0</span>
-              <div style="font-size: 35px;margin-top: -30px;">Distribuidores en el país</div>
-            </div>
-          </div>
-        </div>
-
-
-        <script id="mainRequiez" type="text/template">
-          <div id="scene" class="requiez container-images">
-            <div class="background-animates" data-depth="0.1" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element3 bounceInLeft" style="background-image: url('theme_requiez/static/img/sliderMain/requiez/CURVASTRASERASROSAS.png');width: 100%;height: 90vh;background-position: 50%;background-repeat: no-repeat;background-size: contain;top: -132px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.2" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/CIRCULOROSADEGRADADO.png');width: 100%;height: 7vh;background-position: 63%;background-repeat: no-repeat;background-size: contain;top: 49px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/circulovioleta.png');    width: 100%;height: 11vh;background-position: 78%;background-repeat: no-repeat;background-size: contain;top: 10px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/CIRCULOROSAG.png'); width: 100%;height: 32vh;background-position: 38%;background-repeat: no-repeat;background-size: contain;bottom: 59px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/circulovioleta.png');width: 100%;height: 13vh;background-position: 27%;background-repeat: no-repeat;background-size: contain;top: 56px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/CIRCULOROSAG.png');     width: 100%;height: 21vh;background-position: 29%;background-repeat: no-repeat;background-size: contain;top: 0;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/ESTADISTICAS_ROSAS.png');    width: 100%;height: 24vh;background-position: 19%;background-repeat: no-repeat;background-size: contain;top: 157px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/EMPLEADO.png');    width: 100%;height: 24vh;background-position: 70%;background-repeat: no-repeat;background-size: contain;top: 104px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/rm-9016--min.png');    width: 100%;height: 70vh;background-position: 50%;background-repeat: no-repeat;background-size: contain;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.8" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/AGENDAROSA.png');     width: 100%;height: 27vh;background-position: 77%;background-repeat: no-repeat;background-size: contain;bottom: 269px;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.9" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/MANOROSA.png');    width: 100%;height: 65vh;bottom: 76px;background-position: 19%;background-repeat: no-repeat;background-size: contain;"></span>
-            </div>
-            <div class="background-animates" data-depth="0.6" style="width: 100%; height: 100vh;">
-              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/Logo.png');    width: 100%;height: 33vh;background-position: 68%;background-repeat: no-repeat;background-size: contain;bottom: 53px;"></span>
-            </div>
-          </div>
+            var slider = new sliderMain();
+          });
         </script>
+        <aside id="sticky-social">
+            <ul>
+                <li class="animate"><a href="https://www.facebook.com/Requiez.Oficina/" class="animate entypo-facebook" target="_blank">
+                  <img src="https://requiez.com/public/img/facebookWhite.svg" alt=""/></a>
+                </li>
+                <li class="animate"><a href="https://www.instagram.com/requiez.sillas/" class="animate entypo-instagrem" target="_blank">
+                  <img class="icono animate" src="https://requiez.com/public/img/Instagram.png" alt=""/></a>
+                </li>
+            </ul>
+        </aside>
+
       </div>
+
     </t>
   </template>
-  <record id="services_page_link" model="website.page">
+  <record id="services_page_inicio" model="website.page">
     <field name="name">Inicio</field>
     <field name="website_published">True</field>
-    <field name="url">/Inicio</field>
+    <field name="url">/</field>
     <field name="view_id" ref="inicio"/>
+    <field name="sequence" type="int">1</field>
   </record>
 </odoo>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="count_teams" name="Count teams">
+    <section class="count_teams">
+      <div id="contadores" class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
+            <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_883920_cc.png" />
+            <span class="counter1" style="font-size: 100px; display: block;color:#875f80;">0</span>
+            <div style="font-size: 35px;margin-top: -30px;">Trabajadores</div>
+          </div>
+          <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
+            <img style="width: 60px;" src="/theme_requiez/static/img/index/add.svg" />
+          </div>
+          <div class="col-sm-4 col-md-4 nopadding" style="text-align: center;">
+            <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/MEXICOicon.png" />
+            <span class="counter2" style="font-size: 100px; display: block;color:#875f80;">0</span>
+            <div style="font-size: 35px;margin-top: -30px;">Plantas de trabajo</div>
+          </div>
+          <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
+            <img style="width: 60px;" src="/theme_requiez/static/img/index/add.svg" />
+          </div>
+          <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
+            <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_694978_cc.png" />
+            <span class="counter3" style="font-size: 100px; display: block;color:#875f80;">0</span>
+            <div style="font-size: 35px;margin-top: -30px;">Distribuidores en el país</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="count_teams" inherit_id="website.snippets" name="Count teams">
+    <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+      <t t-snippet="theme_requiez.count_teams"
+         t-thumbnail="/theme_requiez/static/src/img/ui/snippet_thumb.jpg"/>
+    </xpath>
+  </template>
+</odoo>

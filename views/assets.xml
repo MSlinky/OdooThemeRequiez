@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-	<template id="materialize_style" name="style_materialize" inherit_id="web.assets_frontend">
-	    <xpath expr="link[last()]" position="after">
-	        <!--<link  href="/theme_requiez/static/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
-	    </xpath>
-	</template>
 	<template id="script_theme" name="script_theme" inherit_id="web.assets_frontend">
-	    <xpath expr="." position="inside">
-            <!--<script type="text/javascript" src="/theme_requiez/static/bootstrap/bootstrap.min.js"></script>-->
-            <!--<script type="text/javascript"  src="/theme_requiez/static/parallaxJS/node_module/dist/parallax.min.js"></script>-->
-            <script type="text/javascript"  src="/theme_requiez/static/js/GSAP/minified/TweenMax.min.js"></script>
-            <script type="text/javascript"  src="/theme_requiez/static/js/waypoints/lib/jquery.waypoints.min.js"></script>
-            <script type="text/javascript"  src="/theme_requiez/static/js/underscore-min.js"></script>
-           	<script type="text/javascript"  src="/theme_requiez/static/js/main.js"></script>
-        </xpath>
+		<xpath expr="." position="inside">
+			<script type="text/javascript"  src="/theme_requiez/static/js/wolcarousel/owl.carousel.min.js"></script>
+			<script type="text/javascript"  src="/theme_requiez/static/js/GSAP/minified/TweenMax.min.js"></script>
+			<script type="text/javascript"  src="/theme_requiez/static/js/waypoints/lib/jquery.waypoints.min.js"></script>
+			<script type="text/javascript"  src="/theme_requiez/static/js/main.js"></script>
+		</xpath>
 	</template>
 </odoo>
