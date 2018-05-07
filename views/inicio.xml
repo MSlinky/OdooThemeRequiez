@@ -180,8 +180,6 @@
             cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
             cont1.doCont();
 
-
-            var slider = new sliderMain();
           });
         </script>
         <aside id="sticky-social">

@@ -321,6 +321,12 @@
           </div>
         </a>
       </script>
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+            var slider = new sliderMain();
+          });
+        </script>
     </section>
   </template>
 
