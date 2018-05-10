@@ -1,7 +1,10 @@
+(function(){
+
 	_.templateSettings = {
-      evaluate : /\{\[([\s\S]+?)\]\}/g,
-      interpolate : /\{\{([\s\S]+?)\}\}/g
-    };
+		evaluate : /\{\[([\s\S]+?)\]\}/g,
+		interpolate : /\{\{([\s\S]+?)\}\}/g
+	};
+
 
 	$.fn.extend({
 		animateCss: function(animationName, callback) {
@@ -48,9 +51,9 @@
 			var waypoint = new Waypoint({
 				element: document.getElementById('contadores'),
 				handler: function(direction) {
-					count(elements[0], 150);
-					count(elements[1], 3);
-					count(elements[2], 180);
+					count(elements[0], 100);
+					count(elements[1], 200);
+					count(elements[2], 300);
 
 					this.destroy();
 				},
@@ -79,12 +82,13 @@
 		var	isMobile = false;
 
 		var view = {
+			$grupo : $('#mainGrupoRequiez'),
 			$contentMain : $('.content-marcas-main'),
 			$requiez : $('#mainRequiez'),
 			$labenze : $('#mainLabenze'),
 			$okamura : $('#mainOkamura'),
 			$infiniti : $('#mainInfiniti'),
-			$grupo : $('#mainGrupoRequiez'),
+			$quadrifoglio : $('#mainQuadrifoglio'),
 		}
 
 		var tmp = {
@@ -93,6 +97,7 @@
 			tmpLabenze : _.template(view.$labenze.html()),
 			tmpOkamura : _.template(view.$okamura.html()),
 			tmpInfiniti : _.template(view.$infiniti.html()),
+			tmpQuadrifoglio : _.template(view.$quadrifoglio.html()),
 		}
 
 		$('.event-marca').click(eventMarca);
@@ -123,7 +128,7 @@
 
 			if( FindScene.length > 0 ){
 				FindScene.animateCss('bounceOutRight', function(event) {
-					$('#scene').remove();
+					$('.removeSlider').remove();
 					addScene(tagMarca);
 				});
 			}else{
@@ -132,6 +137,7 @@
        	}
 
        	function addScene(tagMarca){
+
        		if( tagMarca == 'grupoRequiez' ){
 				$('.content-marcas-main').append(tmp.tmpGrupoRequiez({ mobile : isMobile}));
 				var scene = document.getElementById('scene');
@@ -152,6 +158,10 @@
 				$('.content-marcas-main').append(tmp.tmpInfiniti({ mobile : isMobile}));
 				var scene = document.getElementById('scene');
 				var parallaxInstance = new Parallax(scene);
+			}else if( tagMarca == 'quadrifoglio'){
+				$('.content-marcas-main').append(tmp.tmpQuadrifoglio({ mobile : isMobile}));
+				var scene = document.getElementById('scene');
+				var parallaxInstance = new Parallax(scene);
 			}
        	}
 
@@ -159,17 +169,14 @@
 	});
 
 	$(document).ready(function(){
-		
-		var flagMenuFix = false;
-          $(window).scroll(function(){
-            
-            if ($(this).scrollTop() > 1 && flagMenuFix == false ) {
-              $('.navbar').addClass('header-fix-active');
-              flagMenuFix = true;
-            }else if($(this).scrollTop() <= 1 && flagMenuFix == true){
-              flagMenuFix = false;
-              $('.navbar').removeClass('header-fix-active');
-            }
-          });
-  
+		console.log('main.js?ver=0.0.9');
+
+		//var cont1 = new contadores();
+		//cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
+		//cont1.doCont();
+
+
+		var slider = new sliderMain();
 	});
+
+})();

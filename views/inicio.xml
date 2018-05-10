@@ -6,202 +6,387 @@
 
         <div class="oe_structure"/>
 
-        <section class="count_teams">
-          <div id="contadores" class="container" style="margin-top: 50px;">
-            <div class="row">
-              <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
-                <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_883920_cc.png" />
-                <span class="counter1" style="font-size: 100px; display: block;color:#875f80;">0</span>
-                <div style="font-size: 35px;margin-top: -30px;">Trabajadores</div>
-              </div>
-              <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
-                <img style="width: 60px;" src="/theme_requiez/static/img/index/add.svg" />
-              </div>
-              <div class="col-sm-4 col-md-4 nopadding" style="text-align: center;">
-                <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/MEXICOicon.png" />
-                <span class="counter2" style="font-size: 100px; display: block;color:#875f80;">0</span>
-                <div style="font-size: 35px;margin-top: -30px;">Plantas de trabajo</div>
-              </div>
-              <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
-                <img style="width: 60px;" src="/theme_requiez/static/img/index/add.svg" />
-              </div>
-              <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
-                <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_694978_cc.png" />
-                <span class="counter3" style="font-size: 100px; display: block;color:#875f80;">0</span>
-                <div style="font-size: 35px;margin-top: -30px;">Distribuidores en el país</div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        <div id="vaores" class="container" style="margin-top: 50px;">
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="paper">
-                <h2>Valores</h2>
-                <p>Somos una empresa que encuentra en la innovación su punto de partida: innovación en diseño y manufactura, en procesos de comer cialización y atención a clientes; innovación en sustentabilidad de nuestros materiales, en relaciones estrechas con nuestro personal, y en cada uno de nuestros esfuerzos, pequeños o grandes,que todos los días hacemos para estar siempre un paso adelante.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="paper">
-                <h2>Mision</h2>
-                <p>Fabricamos y proveemos muebles para oficina, contract y colectividad, proporcionando a nuestros clientes productos y servicios de calidad e innovación, generando beneficios consistentes a nuestros grupos de interes, basados en la creatividad, el compromiso y la integración del personal, todo ello por medio de tecnología y capacitación de vanguardia.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="paper">
-                <h2>Vision</h2>
-                <p>Ser la fuerza dominante del mercado de muebles para oficina, contract y colectividad en los segmentos que seleccionamos servir, satisfaciendo las espectativas de nuestros clientes y grupos de interés.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="paper">
-                <h2>Objetivos de calidad</h2>
-                <p>
-                    - Trabajo en equipo <br/>
-                    - Calidad  <br/>
-                    - Servicio <br/>
-                    - Compromiso <br/>
-                    - Responsabilidad <br/>
-                    - Innovación <br/>
-                    - Honestidad <br/>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+          <div>
 
-
-        <div class="historia" style="margin-top: 25px;">
-          <div class="container">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                  <h4>1982</h4>
-                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logo_grupo_requiez.png" /></span>
-                  <div class="title">Nace Grupo Reqüiez</div>
-                  <div class="info">
-                    Nace Grupo Requiez como una empresa dedicada a la distribución de productos para ingeniería y dibu
+            <div class="content-marcas-main">
+              <div class="main-marcas">
+                <div class="SliderBar-content">
+                  <div id="grupoRequiez" class="event-marca SliderBar-selector is-selected">
+                    <div class="SliderBar-selector-line">Grupo Requiez</div>
+                    <div class="SliderBar-selector-dot" style="height: 15px;width: 15px;border-radius: 12px;background-color: #542247;position: absolute;top: -3px;right: -4px;bottom: 0;left: auto;"></div>
+                  </div>
+                  <div id="requiez" class="event-marca SliderBar-selector">
+                    <div class="SliderBar-selector-line">Requiez</div>
+                    <div class="SliderBar-selector-dot pulse pulse-short"></div>
+                  </div>
+                  <div id="labenze" class="event-marca SliderBar-selector">
+                    <div class="SliderBar-selector-line">Labenze</div>
+                    <div class="SliderBar-selector-dot pulse pulse-short"></div>
+                  </div>
+                  <div id="okamura" class="event-marca SliderBar-selector">
+                    <div class="SliderBar-selector-line">Okamura</div>
+                    <div class="SliderBar-selector-dot pulse pulse-short"></div>
+                  </div>
+                  <div id="infiniti" class="event-marca SliderBar-selector">
+                    <div class="SliderBar-selector-line">Infiniti</div>
+                    <div class="SliderBar-selector-dot pulse pulse-short"></div>
+                  </div>
+                  <div id="quadrifoglio" class="event-marca SliderBar-selector">
+                    <div class="SliderBar-selector-line">Quadrifoglio</div>
+                    <div class="SliderBar-selector-dot pulse pulse-short"></div>
                   </div>
                 </div>
-                <div class="item">
-                  <h4>1990</h4>
-                  <div class="title">Diversificación</div>
-                  <div class="info">La empresa se diversifica y crea la división de sillería: La marca Reqüiez es la primera línea del Grupo, la cual logra posicionarse como líder en el mercado.</div>
-                </div>
-                <div class="item">
-                  <h4>1999</h4>
-                  <div class="title">Primera planta para la fabricación de estructuras metálicas</div>
-                  <div class="info">Se establece la primera planta para la fabricación de estructuras metálicas para sillas, y desde entonces, el crecimiento de nuestra actividad industrial no se ha visto interrumpido, con maquinaría de última generación para casi todos los procesos productivos, y modelos exclusivos que combinan elegancia y funcionalidad.</div>
-                </div>
-                <div class="item">
-                  <h4>2000</h4>
-                  <div class="title">Crecimiento de instalaciones</div>
-                  <div class="info">Debido a la gran demanda de producto, crecen nuestras instalaciones para aumentar la capacidad de almacenaje y hacer efectivos nuestros procesos. Se da la bienvenida a nueva planta en Belenes Norte, en Zapopan.</div>
-                </div>
-                <div class="item">
-                  <h4>2002</h4>
-                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoEuroseat.png" /></span>
-                  <div class="title">Euroseat</div>
-                  <div class="info">Nace la marca Euroseat, la cual ofrece al mercado productos exclusivamente italianos en espacios de colectividad y oficinas personalizadas.</div>
-                </div>
-                <div class="item">
-                  <h4>2006</h4>
-                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoLabenze-min.png" /></span>
-                  <div class="title">Labenze</div>
-                  <div class="info">Como resultado de la búsqueda de sillería exclusiva con firma de diseñadores europeos, se introduce la marca Labenze al Grupo.</div>
-                </div>
-                <div class="item">
-                  <h4>2010</h4>
-                  <div class="title">Nuevas instalaciones</div>
-                  <div class="info">Se integra la línea de pintura electroestática en la planta de Metalmecánica, con tecnología de punta que permite obtener resultados a un máximo nivel de calidad e imagen de nuestros productos.</div>
-                </div>
-                <div class="item">
-                  <h4>2012</h4>
-                  <div class="title">Almacen en la Ciudad de México</div>
-                  <div class="info">Requerido por la distribución en toda la república mexicana se realiza la apertura del almacen en la Ciudad de México.</div>
-                </div>
-                <div class="item">
-                  <h4>2013</h4>
-                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/okamrua_logo-min.png" /></span>
-                  <div class="title">Okamura</div>
-                  <div class="info">Grupo Requiez incorpora a una nueva línea de sillera de origen Japonés: Okamura, dando continuidad a la búsqueda de eficiencia y diseño que nos caracteriza.</div>
-                </div>
-                <div class="item">
-                  <h4>2015</h4>
-                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoInfiniti.png" /></span>
-                  <div class="title">Infiniti</div>
-                  <div class="info">Se incorpora Infiniti, la marca italiana de alto diseño, como una propuesta para el mercado Contract de alto nivel.</div>
-                </div>
-                <div class="item">
-                  <h4>2016</h4>
-                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/esr-logo.png" /></span>
-                  <div class="title">Empresa Socialmente Responsable</div>
-                  <div class="info">La obtención del distintivo de empresa socialmente responsable ESR, se hace presente gracias a la contribución activa y voluntaria del Grupo, para mejorar el entorno social, económico y ambiental en el que se desenvuelve. A la par, se activan las oficinas administrativas en la Ciudad de México.</div>
-                </div>
-                <div class="item">
-                  <h4>2017</h4>
-                  <div class="title">Nuevas oficinas y planta</div>
-                  <div class="info">Nuevas instalaciones de Corporativo en Urban Center Guadalajara y planta Operativa en el Centro Logístico Jalisco, en el municipio de Acatlán; espacios inteligentes adecuados al crecimiento y necesidades de nuestros consumidores. Se introduce la línea italiana de mobiliario, iluminación y accesorios Quadrifoglio, sumando valor al Grupo.</div>
-                </div>
-                <div class="item">
-                  <h4>2017</h4>
-                  <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/quadrifoglio.jpg" /></span>
-                  <div class="title">Quadrifoglio</div>
-                  <div class="info">Se incorpora Quadrifoglio, marca italiana de alto diseño.  Diseña y fabrica muebles para oficina, ofreciendo la mejor relación calidad - precio. Mesas de despacho direccionales y puestos de trabajo, recepción, salas de reuniones, almacenamiento y accesorios.</div>
-                </div>
+              </div>
+
+              <span class="btn-floating pulse" style="background-color: #542247;height: 50px;width: 50px;display: inline-block;padding: 10px;border-radius: 100%;-webkit-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);position: absolute;right: calc(50% - 30px);bottom: 96px;"><img style="width: 30px;" src="/theme_requiez/static/img/arrow.png"/></span>
+
+              <!--Import -->
+
             </div>
           </div>
+
+          <script id="mainGrupoRequiez" type="text/template">
+        <div id="scene" class="grupo container-images removeSlider">
+          <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
+            <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/grupo/logo_grupo_requiez.png');width: 100%;bottom: 55%;background-position: 50%;background-repeat: no-repeat;background-size: contain;
+              {[ if ( mobile ) { ]}
+                height: 9%;
+              {[ }else{ ]}
+                height: 17vh;
+              {[ } ]}
+              "></span>
+          </div>
         </div>
+      </script>
 
+          <script id="mainRequiez" type="text/template">
+              <a class="removeSlider" href="/Marcas/Requiez">
+                <div id="scene" class="requiez container-images">
+                  <div class="background-animates" data-depth="0.1" style="width: 100%; height: 100vh;">
+                    <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/CURVASTRASERASROSAS.png');width: 100%;height: 90vh;background-position: 50%;background-repeat: no-repeat;background-size: contain;top: -132px;opacity: .4;"></span>
+                  </div>
+                  <div class="background-animates" data-depth="0.2" style="width: 100%; height: 100vh;">
+                    <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/CIRCULOROSADEGRADADO.png');width: 100%;height: 7vh;background-position: 63%;background-repeat: no-repeat;background-size: contain;top: 49px;opacity: .5;"></span>
+                  </div>
+                  <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                    <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/circulovioleta.png');    width: 100%;height: 11vh;background-position: 78%;background-repeat: no-repeat;background-size: contain;top: 10px;opacity: .4;"></span>
+                  </div>
+                  {[ if ( !mobile ) { ]}
+                    <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                      <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/CIRCULOROSAG.png'); width: 100%;height: 32vh;background-position: 38%;background-repeat: no-repeat;background-size: contain;bottom: 59px;opacity: .4;"></span>
+                    </div>
+                  {[ } ]}
+                  <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                    <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/circulovioleta.png');width: 100%;height: 13vh;background-position: 27%;background-repeat: no-repeat;background-size: contain;top: 56px;opacity: .5;"></span>
+                  </div>
+                  <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+                    <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/CIRCULOROSAG.png');     width: 100%;height: 21vh;background-position: 29%;background-repeat: no-repeat;background-size: contain;top: 0;opacity: .5;"></span>
+                  </div>
+                  {[ if ( !mobile ) { ]}
+                    <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+                      <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/ESTADISTICAS_ROSAS.png');    width: 100%;height: 24vh;background-position: 19%;background-repeat: no-repeat;background-size: contain;top: 157px;opacity: .6;"></span>
+                    </div>
 
-        <script type="text/javascript">
-          $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                loop:false,
-                margin:10,
-                nav:true,
-                dots: false,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:2
-                    },
-                    1000:{
-                        items:3
-                    }
-                }
-            })
+                    <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+                      <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/EMPLEADO.png');    width: 100%;height: 24vh;background-position: 70%;background-repeat: no-repeat;background-size: contain;top: 104px;opacity: .6;"></span>
+                    </div>
+                  {[ } ]}
+                  <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
+                    <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/rm-9016--min.png');width: 100%;background-position: 50%;background-repeat: no-repeat;background-size: contain;
+                      {[ if ( mobile ) { ]}
+                        height: 53vh;
+                        bottom: 34%;
+                      {[ }else{ ]}
+                        height: 70vh;
+                      {[ } ]}
+                      "></span>
+                  </div>
+                  {[ if ( !mobile ) { ]}
+                    <div class="background-animates" data-depth="0.8" style="width: 100%; height: 100vh;">
+                      <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/AGENDAROSA.png');     width: 100%;height: 27vh;background-position: 77%;background-repeat: no-repeat;background-size: contain;bottom: 269px;opacity: .8;"></span>
+                    </div>
+                    <div class="background-animates" data-depth="0.9" style="width: 100%; height: 100vh;">
+                      <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/MANOROSA.png');    width: 100%;height: 65vh;bottom: 76px;background-position: 19%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+                    </div>
+                  {[ } ]}
+                  <div class="background-animates" data-depth="0.6" style="width: 100%; height: 100vh;">
+                    <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/requiez/Logo.png');opacity: 1;width: 100%;height: 33vh;background-position: 68%;background-repeat: no-repeat;background-size: contain;
+                      {[ if ( mobile ) { ]}
+                        bottom: 14%;
+                      {[ }else{ ]}
+                        bottom: 53px;
+                      {[ } ]}
+                      "></span>
+                  </div>
+                </div>
+              </a>
+            </script>
 
-            console.log('main.js?ver=0.0.24');
+        <script id="mainLabenze" type="text/template">
+        <a class="removeSlider" href="/Marcas/Labenze">
+          <div id="scene" class="labenze container-images">
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.1" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/ventanaroja.png');width: 100%;height: 58vh;background-position: 69%;background-repeat: no-repeat;background-size: contain;bottom: 41%;opacity: .4;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.2" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/plumasuperior.png');width: 100%;height: 17vh;background-position: 81%;background-repeat: no-repeat;background-size: contain;bottom: 77%;opacity: .4;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/plumasuperiorrosa.png');    width: 100%;height: 39vh;background-position: 96%;background-repeat: no-repeat;background-size: contain;bottom: 69%;opacity: .5;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/plumaderecha2.png');width: 100%;height: 27vh;background-position: 91%;background-repeat: no-repeat;background-size: contain;bottom: 38%;opacity: .5;"></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/caferojo.png');    width: 100%;height: 27vh;background-position: 84%;background-repeat: no-repeat;background-size: contain;bottom: 59%;opacity: .6;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/plantaroja.png');    width: 100%;height: 76vh;background-position: 13%;background-repeat: no-repeat;background-size: contain;top: -7%;opacity: .6;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/Nora_labenze.png');width: 100%;background-position: 50%;background-repeat: no-repeat;background-size: contain;
 
-            var cont1 = new contadores();
-            cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
-            cont1.doCont();
+                {[ if ( mobile ) { ]}
+                  height: 40vh;
+                  bottom: 47%;
+                {[ }else{ ]}
+                  height: 70vh;
+                {[ } ]}
 
-          });
-        </script>
-        <aside id="sticky-social">
-            <ul>
-                <li class="animate"><a href="https://www.facebook.com/Requiez.Oficina/" class="animate entypo-facebook" target="_blank">
-                  <img src="https://requiez.com/public/img/facebookWhite.svg" alt=""/></a>
-                </li>
-                <li class="animate"><a href="https://www.instagram.com/requiez.sillas/" class="animate entypo-instagrem" target="_blank">
-                  <img class="icono animate" src="https://requiez.com/public/img/Instagram.png" alt=""/></a>
-                </li>
-            </ul>
-        </aside>
+                "></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.6" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/plumaizquierda.png');width: 100%;height: 23vh;background-position: 35%;background-repeat: no-repeat;background-size: contain;bottom: 39%;opacity: .7;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.7" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/plumaderecha.png');width: 100%;height: 28vh;background-position: 82%;background-repeat: no-repeat;background-size: contain;bottom: 24%;opacity: .7;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.8" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/logorojo.png');opacity: 1;width: 100%;background-repeat: no-repeat;background-size: contain;
+                
+                {[ if ( mobile ) { ]}
+                  bottom: 31%;
+                  height: 13vh;
+                  background-position: 76%;
+                {[ }else{ ]}
+                  background-position: 62%;
+                  height: 27vh;
+                  bottom: 8%;
+                {[ } ]}
+                
+                "></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.9" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/labenze/manoroja.png');    width: 100%;height: 65vh;bottom: 12%;background-position: 18%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+            {[ } ]}
+          </div>
+        </a>
+      </script>
+
+      <script id="mainOkamura" type="text/template">
+        <a  class="removeSlider" href="/Marcas/Okamura">
+          <div id="scene" class="okamura container-images">
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.1" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/casaroja.png');width: 100%;    height: 62vh;background-position: 74%;background-repeat: no-repeat;background-size: contain;bottom: 38%;opacity: .4;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.2" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/florrojader.png');width: 100%;height: 10vh;background-position: 64%;background-repeat: no-repeat;background-size: contain;bottom: 43%;opacity: .4;"></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/figuraroja3.png');width: 100%;height: 14vh;background-position: 77%;background-repeat: no-repeat;background-size: contain;bottom: 54%;opacity: .4;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/vasorojo.png');width: 100%;height: 15vh;background-position: 67%;background-repeat: no-repeat;background-size: contain;bottom: 27%;opacity: .4;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/figuras1.png');width: 100%;    height: 31vh;background-position: 36%;background-repeat: no-repeat;background-size: contain;bottom: 64%;opacity: .5;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/figuraroja2.png');width: 100%; height: 16vh;background-position: 26%;background-repeat: no-repeat;background-size: contain;bottom: 51%;opacity: .5;"></span>
+              </div>
+            {[ } ]}
+             <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/florroja.png');    width: 100%;    height: 6vh;background-position: 63%;background-repeat: no-repeat;background-size: contain;bottom: 81%;opacity: .5;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/leopard.png');width: 100%;background-position: 50%;background-repeat: no-repeat;background-size: contain;
+                  {[ if ( mobile ) { ]}
+                    height: 43vh;
+                    top: 12%;
+                  {[ }else{ ]}
+                    height: 68vh;
+                    top: 8%;
+                  {[ } ]}
+
+                  "></span>
+            </div>
+            <div class="background-animates" data-depth="0.6" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/okamura_logo.png');    width: 100%;background-repeat: no-repeat;background-size: contain;
+                  {[ if ( mobile ) { ]}
+                    height: 7vh;
+                    background-position: 91%;
+                    bottom: 35%;
+                  {[ }else{ ]}
+                    height: 10vh;
+                    background-position: 75%;
+                    bottom: 18%;
+                  {[ } ]}
+
+                  "></span>
+            </div>
+            <div class="background-animates" data-depth="0.7" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/florroja2.png');    width: 100%;height: 10vh;background-position: 80%;background-repeat: no-repeat;background-size: contain;bottom: 21%;opacity: .7;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.7" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/florroja.png');    width: 100%;    height: 6vh;background-position: 23%;background-repeat: no-repeat;background-size: contain;bottom: 82%;opacity: .7;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.8" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/florroja.png');    width: 100%;height: 14vh;background-position: 18%;background-repeat: no-repeat;background-size: contain;bottom: 84%;opacity: .8;"></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.9" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/okamura/diseñorojo.png');width: 100%;height: 39vh;bottom: 12%;background-position: 18%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+            {[ } ]}
+          </div>
+        </a>
+      </script>
+
+      <script id="mainInfiniti" type="text/template">
+        <a class="removeSlider" href="/Marcas/Infiniti">
+          <div id="scene" class="infiniti container-images">
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.1" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/LETRERO.png');width: 100%; height: 59vh;bottom: 41%;background-position: 24%;background-repeat: no-repeat;background-size: contain;opacity: .4;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.2" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/nube.png');width: 100%;    height: 31vh;bottom: 65%;background-position: 35%;background-repeat: no-repeat;background-size: contain;opacity: .4;"></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.2" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/nubegrandederecha.png');width: 100%;    height: 19vh;bottom: 80%;background-position: 56%;background-repeat: no-repeat;background-size: contain;opacity: .4;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/mundo.png');width: 100%;height: 19vh;bottom: 20%;background-position: 36%;background-repeat: no-repeat;background-size: contain;opacity: .4;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/nubeshortderecha.png');width: 100%;height: 16vh;bottom: 79%;background-position: 59%;background-repeat: no-repeat;background-size: contain;opacity: .5;"></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/estatua.png');width: 100%;    height: 62vh;bottom: 40%;background-position: 87%;background-repeat: no-repeat;background-size: contain;opacity: .5;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/avion.png');width: 100%;height: 17vh;bottom: 58%;background-position: 35%;background-repeat: no-repeat;background-size: contain;opacity: .5;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/silla.png');width: 100%;background-repeat: no-repeat;background-size: contain;
+                {[ if ( mobile ) { ]}
+                  height: 36vh;
+                  bottom: 38%;
+                  background-position: 69%;
+                {[ }else{ ]}
+                  height: 59vh;bottom: 26%;background-position: 50%;
+                {[ } ]}
+                "></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.7" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/sir.png');width: 100%;    height: 62vh;bottom: 12%;background-position: 80%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.9" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/manofoto.png');width: 100%;height: 65vh;bottom: 76px;background-position: 19%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.8" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element3 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/infiniti/infiniti_logo.jpg');width: 100%;background-repeat: no-repeat;background-size: contain;
+                {[ if ( mobile ) { ]}
+                  bottom: 24%;
+                  height: 14vh;
+                  background-position: 88%;
+                {[ }else{ ]}
+                  height: 21vh;background-position: 88%;bottom: 12%;
+                {[ } ]}
+
+                "></span>
+            </div>
+          </div>
+        </a>
+      </script>
+
+      <script id="mainQuadrifoglio" type="text/template">
+        <a class="removeSlider" href="/Marcas/Quadrifoglio">
+          <div id="scene" class="infiniti container-images">
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.1" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/edificio1.png');width: 91%;    height: 48vh;bottom: 59%;background-position: 75%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+              <div class="background-animates" data-depth="0.2" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/edificio2.png');width: 91%;height: 48vh;bottom: 52%;background-position: 100%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+            {[ } ]}
+            <div class="background-animates" data-depth="0.3" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/chequera.png');width: 91%;height: 19vh;bottom: 79%;background-position: 22%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.4" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/cactus.png');width: 91%;height: 19vh;bottom: 77%;background-position: 6%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/ESCRITORIO.png');width: 100%;background-repeat: no-repeat;background-size: contain;
+                {[ if ( mobile ) { ]}
+                  height: 36vh;
+                  bottom: 38%;
+                  background-position: 69%;
+                {[ }else{ ]}
+                  height: 59vh;bottom: 26%;background-position: 50%;
+                {[ } ]}
+                "></span>
+            </div>
+            <div class="background-animates" data-depth="0.6" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/trebol1derecha.png');width: 91%;height: 9vh;bottom: 55%;background-position: 11%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+            </div>
+            <div class="background-animates" data-depth="0.7" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/trebol1izquierda.png');width: 91%;    height: 16vh;bottom: 49%;background-position: 13%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.9" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/manolibreta.png');width: 91%;height: 40vh;bottom: 82px;background-position: 102%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+             {[ } ]}
+            <div class="background-animates" data-depth="0.7" style="width: 100%; height: 100vh;">
+              <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/calculadora.png');width: 91%;height: 21vh;bottom: 237px;background-position: 95%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+            </div>
+            {[ if ( !mobile ) { ]}
+              <div class="background-animates" data-depth="0.9" style="width: 100%; height: 100vh;">
+                <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/quadrifoglio/manocelular.png');width: 91%;height: 56vh;bottom: 38px;background-position: 19%;background-repeat: no-repeat;background-size: contain;opacity: .8;"></span>
+              </div>
+            {[ } ]}
+          </div>
+        </a>
+      </script>
+
 
       </div>
-
     </t>
   </template>
-  <record id="services_page_inicio" model="website.page">
+  <record id="services_page_link" model="website.page">
     <field name="name">Inicio</field>
     <field name="website_published">True</field>
     <field name="url">/</field>
     <field name="view_id" ref="inicio"/>
-    <field name="sequence" type="int">1</field>
   </record>
 </odoo>
