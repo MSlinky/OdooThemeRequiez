@@ -20,7 +20,7 @@
           h1{
               font-weight: bold;
               color: #333;
-              font-size: 50px;
+              font-size: 45px;
               letter-spacing: -0.04em;
               text-transform: uppercase;
               color: #333;
@@ -49,7 +49,7 @@
         </style>
 
         <div class="container">
-          <h1 style="text-align: center;"><t t-raw="nombreMarca['urlLogo']"/></h1>
+          <h1 style="text-align: center;width:100%;"><t t-raw="nombreMarca['urlLogo']"/></h1>
           
           <div style="text-align: right;font-size: 1.3em;">Página web: <t t-raw="nombreMarca['webname']"/> </div>
           <div class="row">
@@ -66,6 +66,18 @@
                 </div>
                 <div class="col-md-6 nopadding" >
                   <t t-raw="nombreMarca['img'][2]"/>
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <t t-raw="nombreMarca['img'][3]"/>
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <t t-raw="nombreMarca['img'][4]"/>
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <t t-raw="nombreMarca['img'][5]"/>
+                </div>
+                <div class="col-md-6 nopadding" >
+                  <t t-raw="nombreMarca['img'][6]"/>
                 </div>
             </div>
 

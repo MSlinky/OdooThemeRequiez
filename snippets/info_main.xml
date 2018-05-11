@@ -2,14 +2,14 @@
 <odoo>
 
   <template id="info_main" name="Info compement main">
-    <section class="info_main">
+     <section class="info_main">
       <div class="container" style="margin-bottom: 20px;">
           <div class="row">
             <div class="col-sm-6 col-md-6 nopadding">
                 <h1 class="fittext">
-                  <span class="light">Cada </span>Experiencia<br/>
-                  <span class="light">es una</span> Historia <br/>
-                  <span class="light">que</span><span class="light">no se parece<br/> 
+                  <span class="light">Cada </span> Experiencia <br/>
+                  <span class="light"> es una </span> Historia <br/>
+                  <span class="light"> que </span><span class="light"> no se parece<br/> 
                   a ninguna</span>
                 </h1>
 
@@ -59,7 +59,7 @@
                   Instalaciones
                 </h1>
 
-                <p class="p-right">Lo esencial en la trayectoria de Grupo Reqüiez es su capital humano; más de 167 las personas que todos los días dan lo mejor de sí para hacer de cada una de nuestras líneas la mejor en el mercado, con sus conocimientos, su entrega y su dedicación.</p>
+                <p class="p-right">Lo esencial en la trayectoria de Grupo Reqüiez es su capital humano; son más de 167 las personas que todos los días dan lo mejor de sí para hacer de cada una de nuestras líneas la mejor en el mercado, con sus conocimientos, su entrega y su dedicación.</p>
 
                 <p class="p-right">Nosotros trabajamos en el desarrollo de la persona, tanto a nivel personal y humano, como en el profesional. El respeto es fundamental para nuestra empresa; damos espacio a la creatividad y la inventiva de nuestro personal, detonando así su crecimiento y la oportunidad de dejar su granito de arena en la construcción de una empresa más eficiente, pero siempre más humana.</p>
             </div>

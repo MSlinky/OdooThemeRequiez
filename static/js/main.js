@@ -1,5 +1,3 @@
-(function(){
-
 	_.templateSettings = {
 		evaluate : /\{\[([\s\S]+?)\]\}/g,
 		interpolate : /\{\{([\s\S]+?)\}\}/g
@@ -51,9 +49,9 @@
 			var waypoint = new Waypoint({
 				element: document.getElementById('contadores'),
 				handler: function(direction) {
-					count(elements[0], 100);
-					count(elements[1], 200);
-					count(elements[2], 300);
+					count(elements[0], 150);
+					count(elements[1], 3);
+					count(elements[2], 180);
 
 					this.destroy();
 				},
@@ -122,7 +120,7 @@
 		function eventMarca(event){
 			var tagMarca = $(this)[0].id;
 			$('.event-marca').removeClass('is-selected');
-			$('#'+tagMarca).addClass('is-selected');
+			$('#'+tagMarca).addClass('is-selected no-action-animate');
 
 			var FindScene = view.$contentMain.find('#scene');
 
@@ -171,12 +169,21 @@
 	$(document).ready(function(){
 		console.log('main.js?ver=0.0.9');
 
-		//var cont1 = new contadores();
-		//cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
-		//cont1.doCont();
+		var flagMenuFix = false;
+        $(window).scroll(function(){
+            
+            if ($(this).scrollTop() > 1 && flagMenuFix == false ) {
+              $('.navbar').addClass('header-fix-active');
+              flagMenuFix = true;
+            }else if($(this).scrollTop() <= 1 && flagMenuFix == true){
+              flagMenuFix = false;
+              $('.navbar').removeClass('header-fix-active');
+            }
+        });
+        
 
+		var cont1 = new contadores();
+		cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
+		cont1.doCont();
 
-		var slider = new sliderMain();
 	});
-
-})();

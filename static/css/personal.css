@@ -357,7 +357,7 @@ a:hover, a:focus {
     }
   }
 
-  .is-selected .pulse-short::before{
+  .is-selected .pulse-short::before, .no-action-animate .pulse-short::before{
     -webkit-animation: none !important;
             animation: none !important;
   }
