@@ -16,7 +16,7 @@
           <div class="col-sm-4 col-md-4 nopadding" style="text-align: center;">
             <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/MEXICOicon.png" />
             <span class="counter2" style="font-size: 100px; display: block;color:#875f80;">0</span>
-            <div style="font-size: 35px;margin-top: -30px;">Plantas de trabajo</div>
+            <div style="font-size: 35px;margin-top: -30px;">Centros de trabajo</div>
           </div>
           <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
             <img style="width: 60px;" src="/theme_requiez/static/img/index/add.svg" />

@@ -6,26 +6,62 @@
         <section>
           <div class="container">
               <div class="row">
+                <div class="col-md-2 footer-marcas">
+                  <a href="/Marcas/Requiez">
+                    <img src="/theme_requiez/static/img/marcas/req.jpg"/>
+                  </a>
+                </div>
+                <div class="col-md-2 footer-marcas">
+                  <a href="/Marcas/Labenze">
+                    <img src="/theme_requiez/static/img/marcas/labenze.jpg"/>
+                  </a>
+                </div>
+                <div class="col-md-2 footer-marcas">
+                  <a href="/Marcas/Okamura">
+                    <img src="/theme_requiez/static/img/marcas/okamrua_logo-min.png"/>
+                  </a>
+                </div>
+                <div class="col-md-2 footer-marcas">
+                  <a href="/Marcas/Infiniti">
+                    <img src="/theme_requiez/static/img/marcas/logoInfiniti.png"/>
+                  </a>
+                </div>
+                <div class="col-md-2 footer-marcas">
+                  <a href="/Marcas/Quadrifoglio">
+                    <img src="/theme_requiez/static/img/marcas/logoQuadri.png"/>
+                  </a>
+                </div>
+              </div> 
+              <div class="row">
                   <div class="col-md-4">
                     <h4 class="mt16">Site Map</h4>
                     <div>
                       <a href="/">Inicio</a>
                     </div>
                     <div>
-                      <a href="/">News</a>
+                      <a href="/News">News</a>
+                    </div>
+                    <div>
+                      <a href="/Sustentabilidad%20y%20Centificados">Sustentabilidad y Centificados</a>
+                    </div>
+                    <div>
+                      <a href="/Transparencia">Transparencia</a>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <h4 class="mt16">Redes</h4>
                     <div>
-                      <a href="https://www.facebook.com/Requiez.Oficina/" target="_blank">Grupo Reqüiez</a>
+                      <a href="https://www.facebook.com/Requiez.Oficina/" target="_blank">
+                        <img  style="width: 20px;" src="/theme_requiez/static/img/facebook-logo.svg"/>
+                        Grupo Reqüiez
+                      </a>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <h4 class="mt16">Contacto</h4>
                     <div>
                       <a href="https://www.google.com.mx/maps/place/Grupo+Requiez+S.A.+De+C.V./@20.5688701,-103.4581225,16.5z/data=!4m5!3m4!1s0x0:0x6dab4125a87ccdf2!8m2!3d20.5692701!4d-103.4575653" target="_blank">
-                        Av. Adolfo López Mateos Sur #7000 <br/>Int. Of-03-01. Urban Center Guadalajara. <br/>La Rioja, Los Gavilanes. <br/>CP. 45643. Tlajomulco de Zúñiga, Jalisco. <br/></a>
+                        Av. Adolfo López Mateos Sur #7000 <br/>Int. Of-03-01. Urban Center Guadalajara. <br/>La Rioja, Los Gavilanes. <br/>CP. 45643. Tlajomulco de Zúñiga, Jalisco. México<br/></a>
                     </div>
                     <div>
                       <a href="mailto:info2@requiez.com">info2@requiez.com</a>

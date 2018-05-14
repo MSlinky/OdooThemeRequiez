@@ -49,9 +49,9 @@
 			var waypoint = new Waypoint({
 				element: document.getElementById('contadores'),
 				handler: function(direction) {
-					count(elements[0], 150);
-					count(elements[1], 3);
-					count(elements[2], 180);
+					count(elements[0], 167);
+					count(elements[1], 4);
+					count(elements[2], 200);
 
 					this.destroy();
 				},
@@ -181,9 +181,5 @@
             }
         });
         
-
-		var cont1 = new contadores();
-		cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
-		cont1.doCont();
 
 	});

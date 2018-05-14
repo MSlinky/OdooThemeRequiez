@@ -43,7 +43,7 @@ class RequiezController(http.Controller):
 			data['urlLogo'] = '<img src="/theme_requiez/static/img/marcas/okamrua_logo-min.png"/>'
 			data['weburl'] = 'http://okamuramexico.com/'
 			data['webname'] = '<a href="'+data['weburl']+'" target="_blank">www.okamuramexico.com</a>'
-			data['title'] = '<span class="light">LA MÁS </span>EFICIENTE<br/><span class="light">Y LA</span> MEJOR <br/>PRESENCIA <span class="light">DE OFICINA</span>'
+			data['title'] = '<span class="light">LA MEJOR</span> Y MÁS <br/><span class="light"> EFICIENTE </span> PRESENCIA <br/> DE <span class="light"> TRABAJO </span>'
 			data['content'] = "Okamura es una marca de origen Japonés con los estándares de calidad y diseño más altos en sillas de oficina. Una marca con más de 60 años en el mercado japonés se incluye en el portafolio de productos de Grupo Reqüiez para satisfacer las necesidades de los más exigentes en cuanto diseño, ergonomía y calidad. Creando la primera silla Okamura en 1961 llamada Type22 comenzó una historia de principios ergonómicos y conocimiento científico para el desarrollo de productos innovadores en el mercado japonés y posteriormente en el mundo.<br/><br/>Siempre en busca de ofrecer al mercando nuevas propuestas, Okamura se apoya en diseñadores como Giorgetto Giugiaro fundador de Giugiaro Design, despacho de diseño reconocido mundialmente, para mezclar el diseño Italiano con la tecnología y calidad Japonesa. Diseños como <i>Contessa</i>, <i>CP</i> y <i>Luce</i> son ejemplos de una sinergia de trabajo entre oriente y occidente que da como resultado un producto que excede necesidades de un mercado global.<br/><br/>Estas colaboraciones con distintos diseñadores no solamente enriquecen las características de los productos, sino que le dan al usuario una frescura en propuestas y es lo que Okamura busca continuamente.<br/><br/>Okamura, rankeada entre las primeras 3 empresas de fabricación de muebles de oficina a nivel mundial atiende proyectos de manera global en los 5 continentes por medio de colaboraciones con empresas estratégicamente seleccionadas para dar acceso a mercado global. Productos como Contessa y Leopard han roto paradigmas en los mercados globales, por lo que han conseguido posicionarse como unos de los productos icónicos de esta marca tanto por su diseño como por su calidad y tecnología."
 			data['img'] = [
 				'<img class="img-marca" src="/theme_requiez/static/img/marcas/Okamura_web_marca.jpg"/>',
@@ -76,7 +76,7 @@ class RequiezController(http.Controller):
 			data['weburl'] = 'https://www.quadrifoglio.com/es/'
 			data['webname'] = '<a href="'+data['weburl']+'" target="_blank">www.quadrifoglio.com</a>'
 			data['title'] = 'Todos<span class="light"> los </span> días<br/> <span class="light">contigo</span>'
-			data['content'] = "Planificamos y fabricamos muebles para la oficina, asientos, paredes divisorias, iluminación y accesorios para el bienestar de las personas en los ambientes profesionales. Somos diseño, flexibilidad, funcionalidad, calidad y respeto por el medio ambiente.<br/><br/>Desde hace más de 25 años, Quadrifoglio planifica espacios dedicados a la vida de la oficina, y fabrica mobiliario para la oficina, mejorando las experiencias en los ambientes de trabajo. Nuestro corazón late desde el 1991 y ha crecido año tras año hasta disponer de más de 200 colaboradores y más de 100 revendedores en todo el mundo.<br/><br/>Las transformaciones del trabajo y el rápido cambio tecnológico han modificado los métodos y las necesidades del mundo de la oficina, creando nuevas soluciones. Escuchamos a las personas y solucionamos sus necesidades en los ambientes de trabajo. Nuestra experiencia está a disposición del cliente en el desarrollo y la planificación de los espacios a 360 grados."
+			data['content'] = "Planificamos y fabricamos muebles para la oficina, asientos, paredes divisorias, iluminación y accesorios para el bienestar de las personas en los ambientes profesionales. Somos diseño, flexibilidad, funcionalidad, calidad y respeto por el medio ambiente.<br/><br/>Desde hace más de 25 años, Quadrifoglio planifica espacios dedicados a la vida y mobiliario de oficina, mejorando las experiencias en los ambientes de trabajo. Nuestro corazón late desde 1991 y ha crecido año tras año hasta disponer de más de 200 colaboradores y más de 100 revendedores en todo el mundo.<br/><br/>Las transformaciones del trabajo y el rápido cambio tecnológico han modificado los métodos y las necesidades del mundo de la oficina, creando nuevas soluciones. Escuchamos a las personas y solucionamos sus necesidades en los ambientes de trabajo. Nuestra experiencia está a disposición del cliente en el desarrollo y la planificación de los espacios a 360 grados."
 			data['img'] = [
 				'<img class="img-marca" src="/theme_requiez/static/img/marcas/quadri.jpg"/>',
 				'',
@@ -88,6 +88,7 @@ class RequiezController(http.Controller):
 			]
 		else:
 			data['nombre'] = 'Marca no encontrada'
+			
 		return http.request.render('theme_requiez.marcas', {
 			'nombreMarca': data
 		})

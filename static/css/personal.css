@@ -192,6 +192,14 @@ a:hover, a:focus {
       z-index: 999;
     }
   }
+  .footer-marcas{
+    width: 20% !important;
+    text-align: center;
+  }
+  .footer-marcas img{
+    max-width: 100% !important;
+    height: 40px;
+  }
 /*  main  */
 
 /*  info main*/
@@ -482,13 +490,10 @@ a:hover, a:focus {
     }
     .img-timeLine img{
       top: 12px;
-      width: 100px !important;
+      width: auto !important;
+      height: 40px;
       display: inline-block !important;
       transition: all .5s;
-    }
-
-    .active:nth-child(3) .img-timeLine img{
-      width: 150px !important;
     }
 /* Historia*/
 
