@@ -34,7 +34,7 @@
               </div>
               <div class="item">
                 <h4>2002</h4>
-                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoEuroseat.png" /></span>
+                <span class="img-timeLine"><img style="width: 132px !important;height: auto;" src="/theme_requiez/static/img/historia/logoEuroseat.png" /></span>
                 <div class="title">Euroseat</div>
                 <div class="info">Nace la marca Euroseat, la cual ofrece al mercado productos exclusivamente italianos en espacios de colectividad y oficinas personalizadas.</div>
               </div>
@@ -46,7 +46,7 @@
               </div>
               <div class="item">
                 <h4>2010</h4>
-                <span class="img-timeLine"><img src="/theme_requiez/static/img/index/image005.png"/></span>
+                <span class="img-timeLine"><img style="width: 21px !important;height: auto;" src="/theme_requiez/static/img/index/image005.png"/></span>
                 <div class="title">Nuevas instalaciones</div>
                 <div class="info">Se integra la línea de pintura electroestática en la planta de Metalmecánica, con tecnología de punta que permite obtener resultados a un máximo nivel de calidad e imagen de nuestros productos.</div>
               </div>
@@ -58,13 +58,13 @@
               </div>
               <div class="item">
                 <h4>2013</h4>
-                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/okamrua_logo-min.png" /></span>
+                <span class="img-timeLine"><img style="width: 186px !important;height: auto;" src="/theme_requiez/static/img/historia/okamrua_logo-min.png" /></span>
                 <div class="title">Okamura</div>
                 <div class="info">Grupo Requiez incorpora a una nueva línea de sillera de origen Japonés: Okamura, dando continuidad a la búsqueda de eficiencia y diseño que nos caracteriza.</div>
               </div>
               <div class="item">
                 <h4>2015</h4>
-                <span class="img-timeLine"><img src="/theme_requiez/static/img/marcas/logoInfiniti.png" /></span>
+                <span class="img-timeLine"><img style="idth: 106px !important;height: auto;" src="/theme_requiez/static/img/marcas/logoInfiniti.png" /></span>
                 <div class="title">Infiniti</div>
                 <div class="info">Se incorpora Infiniti, la marca italiana de alto diseño, como una propuesta para el mercado Contract de alto nivel.</div>
               </div>
