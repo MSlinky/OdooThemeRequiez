@@ -80,6 +80,7 @@ a:hover, a:focus {
     position: absolute;
     top: calc(50% - 180px);
     width: 122px;
+    z-index: 9;
   }
   .SliderBar-selector {
       margin: 5px 0;
@@ -549,4 +550,23 @@ a:hover, a:focus {
     #sticky-social a[class*="instagrem"],
     #sticky-social a[class*="instagrem"]:hover,
     #sticky-social a[class*="instagrem"] span { background: #542247; } 
+}
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

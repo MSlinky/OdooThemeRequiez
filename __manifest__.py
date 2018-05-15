@@ -1,11 +1,10 @@
 {
   'name':'Requiez',
   'description': 'Tema para Grupo Requiez',
-  'version':'0.0.1',
+  'version':'0.0.2',
   'author':'Mario Alberto Solano Zavala',
   'data': [
     'views/assets.xml',
-  	'views/inicio.xml',
     'views/footer.xml',
     'views/news.xml',
     'views/menu.xml',
@@ -14,6 +13,10 @@
     'views/marcas.xml',
     'snippets/main_requiez.xml',
     'snippets/info_main.xml',
+    'snippets/cont_teams.xml',
+    'snippets/time_line.xml',
+    'snippets/valores.xml',
+    'snippets/footer_marcas.xml',
   ],
   'category': 'Theme/Creative',
   'depends': ['website', 'web'],

@@ -3,35 +3,17 @@
   <template id="theme_requiez_footer" name="Requiez Footer" inherit_id="website.layout">
     <xpath expr="//div[@id='footer']" position="replace">
       <div class="oe_structure" id="footer" t-if="not no_footer">
+
+        <aside id="sticky-social">
+            <ul>
+                <li class="animate"><a href="https://www.facebook.com/gruporequiezgdl" class="animate entypo-facebook" target="_blank">
+                  <img src="https://requiez.com/public/img/facebookWhite.svg" alt=""/></a>
+                </li>
+            </ul>
+        </aside>
+        
         <section>
           <div class="container">
-              <div class="row">
-                <div class="col-md-2 footer-marcas">
-                  <a href="/Marcas/Requiez">
-                    <img src="/theme_requiez/static/img/marcas/req.jpg"/>
-                  </a>
-                </div>
-                <div class="col-md-2 footer-marcas">
-                  <a href="/Marcas/Labenze">
-                    <img src="/theme_requiez/static/img/marcas/labenze.jpg"/>
-                  </a>
-                </div>
-                <div class="col-md-2 footer-marcas">
-                  <a href="/Marcas/Okamura">
-                    <img src="/theme_requiez/static/img/marcas/okamrua_logo-min.png"/>
-                  </a>
-                </div>
-                <div class="col-md-2 footer-marcas">
-                  <a href="/Marcas/Infiniti">
-                    <img src="/theme_requiez/static/img/marcas/logoInfiniti.png"/>
-                  </a>
-                </div>
-                <div class="col-md-2 footer-marcas">
-                  <a href="/Marcas/Quadrifoglio">
-                    <img src="/theme_requiez/static/img/marcas/logoQuadri.png"/>
-                  </a>
-                </div>
-              </div> 
               <div class="row">
                   <div class="col-md-4">
                     <h4 class="mt16">Site Map</h4>

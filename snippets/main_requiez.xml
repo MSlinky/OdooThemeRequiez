@@ -2,7 +2,7 @@
 <odoo>
 
   <template id="parallax_mouse" name="Parallax mouse">
-    <section class="parallax_mouse">
+    <section class="parallax_mouse" style="overflow: hidden;">
       <div>
         <div class="content-marcas-main">
           <div class="main-marcas">
@@ -34,17 +34,25 @@
             </div>
           </div>
 
-          <span class="btn-floating pulse" style="background-color: #542247;height: 50px;width: 50px;display: inline-block;padding: 10px;border-radius: 100%;-webkit-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);position: absolute;right: calc(50% - 30px);bottom: 96px;"><img style="width: 30px;" src="/theme_requiez/static/img/arrow.png"/></span>
+          <span id="desplazar" class="btn-floating animated infinite bounce" style="cursor:pointer;z-index: 9;height: 50px;width: 50px;display: inline-block;padding: 10px;position: absolute;right: calc(50% - 30px);bottom: 96px;"><img style="width: 30px;" src="/theme_requiez/static/img/right-arrow.svg"/></span>
 
           <!--Import -->
 
         </div>
       </div>
+      <div id="desplazarAqui"></div>
 
       <script id="mainGrupoRequiez" type="text/template">
+        
         <div id="scene" class="grupo container-images removeSlider">
+          <div class="animated bounceInLeft element1" style="position: absolute;width: 100%;z-index: 0;">
+            <video controls="controls" autoplay="autoplay" loop="loop" style="opacity: .6;width: 100%;">
+              <source src="/theme_requiez/static/BN.mov" type="video/mp4"/>
+            </video>
+          </div>
+
           <div class="background-animates" data-depth="0.5" style="width: 100%; height: 100vh;">
-            <span class="container-img animated element1 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/grupo/logo_grupo_requiez.png');width: 100%;bottom: 55%;background-position: 50%;background-repeat: no-repeat;background-size: contain;
+            <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/grupo/logo_grupo_requiez.png');width: 100%;bottom: 55%;background-position: 50%;background-repeat: no-repeat;background-size: contain;
               {[ if ( mobile ) { ]}
                 height: 9%;
               {[ }else{ ]}
@@ -402,12 +410,19 @@
       <script>
         $(document).ready(function(){
           var slider = new sliderMain();
+
+          $("#desplazar").click(function () {
+              $('html,body').animate({
+                  scrollTop: $("#desplazarAqui").offset().top-100
+              }, 1000);
+          });
+
         });
       </script>
     </section>
   </template>
 
-  <template id="place_into_bar" inherit_id="website.snippets" name="Parallax mouse">
+  <template id="place_into_main" inherit_id="website.snippets" name="Parallax mouse">
     <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
       <t t-snippet="theme_requiez.parallax_mouse"
          t-thumbnail="/theme_requiez/static/src/img/ui/snippet_thumb.jpg"/>

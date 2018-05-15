@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
             <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_883920_cc.png" />
-            <span class="counter1" style="font-size: 100px; display: block;color:#875f80;">0</span>
+            <div><span style="font-size: 60px;position: absolute;left: 25px;top: 128px;">+</span><span class="counter1" style="font-size: 100px; color:#875f80;">0</span></div>
             <div style="font-size: 35px;margin-top: -30px;">Trabajadores</div>
           </div>
           <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
@@ -15,7 +15,7 @@
           </div>
           <div class="col-sm-4 col-md-4 nopadding" style="text-align: center;">
             <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/MEXICOicon.png" />
-            <span class="counter2" style="font-size: 100px; display: block;color:#875f80;">0</span>
+            <div><span class="counter2" style="font-size: 100px;color:#875f80;">0</span></div>
             <div style="font-size: 35px;margin-top: -30px;">Centros de trabajo</div>
           </div>
           <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
@@ -23,18 +23,26 @@
           </div>
           <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
             <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_694978_cc.png" />
-            <span class="counter3" style="font-size: 100px; display: block;color:#875f80;">0</span>
+            <div><span style="font-size: 60px;position: absolute; left: 25px;  top: 128px;">+</span><span class="counter3" style="font-size: 100px; color:#875f80;">0</span></div>
             <div style="font-size: 35px;margin-top: -30px;">Distribuidores en el país</div>
           </div>
         </div>
       </div>
+      <script>
+        $(document).ready(function(){
+          var cont1 = new contadores();
+          cont1.getElements([$('.counter1'), $('.counter2'), $('.counter3')]);
+          cont1.doCont();
+        });
+      </script>
     </section>
   </template>
 
-  <template id="count_teams" inherit_id="website.snippets" name="Count teams">
+  <template id="place_into_count" inherit_id="website.snippets" name="Count teams">
     <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
       <t t-snippet="theme_requiez.count_teams"
          t-thumbnail="/theme_requiez/static/src/img/ui/snippet_thumb.jpg"/>
     </xpath>
   </template>
+
 </odoo>

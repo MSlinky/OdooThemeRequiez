@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="time_line" name="Time line">
+     <section class="time_line">
+      <div class="historia" style="margin-top: 25px;">
+        <div class="container">
+          <div class="owl-carousel owl-theme">
+              <div class="item">
+                <h4>1982</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logo_grupo_requiez.png" /></span>
+                <div class="title">Nace Grupo Reqüiez</div>
+                <div class="info">
+                  Nace Grupo Requiez como una empresa dedicada a la distribución de productos para ingeniería y dibujo.
+                </div>
+              </div>
+              <div class="item">
+                <h4>1990</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/marcas/req.jpg"/></span>
+                <div class="title">Diversificación</div>
+                <div class="info">La empresa se diversifica y crea la división de sillería: La marca Reqüiez es la primera línea del Grupo, la cual logra posicionarse como líder en el mercado.</div>
+              </div>
+              <div class="item">
+                <h4>1999</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/index/image002.png"/></span>
+                <div class="title">Primera planta para la fabricación de estructuras metálicas</div>
+                <div class="info">Se establece la primera planta para la fabricación de estructuras metálicas para sillas, y desde entonces, el crecimiento de nuestra actividad industrial no se ha visto interrumpido, con maquinaría de última generación para casi todos los procesos productivos, y modelos exclusivos que combinan elegancia y funcionalidad.</div>
+              </div>
+              <div class="item">
+                <h4>2000</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/index/image003.png"/></span>
+                <div class="title">Crecimiento de instalaciones</div>
+                <div class="info">Debido a la gran demanda de producto, crecen nuestras instalaciones para aumentar la capacidad de almacenaje y hacer efectivos nuestros procesos. Se da la bienvenida a nueva planta en Belenes Norte, en Zapopan.</div>
+              </div>
+              <div class="item">
+                <h4>2002</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoEuroseat.png" /></span>
+                <div class="title">Euroseat</div>
+                <div class="info">Nace la marca Euroseat, la cual ofrece al mercado productos exclusivamente italianos en espacios de colectividad y oficinas personalizadas.</div>
+              </div>
+              <div class="item">
+                <h4>2006</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/logoLabenze-min.png" /></span>
+                <div class="title">Labenze</div>
+                <div class="info">Como resultado de la búsqueda de sillería exclusiva con firma de diseñadores europeos, se introduce la marca Labenze al Grupo.</div>
+              </div>
+              <div class="item">
+                <h4>2010</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/index/image005.png"/></span>
+                <div class="title">Nuevas instalaciones</div>
+                <div class="info">Se integra la línea de pintura electroestática en la planta de Metalmecánica, con tecnología de punta que permite obtener resultados a un máximo nivel de calidad e imagen de nuestros productos.</div>
+              </div>
+              <div class="item">
+                <h4>2012</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/index/image001.png"/></span>
+                <div class="title">Almacen en la Ciudad de México</div>
+                <div class="info">Requerido por la distribución en toda la república mexicana se realiza la apertura del almacen en la Ciudad de México.</div>
+              </div>
+              <div class="item">
+                <h4>2013</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/okamrua_logo-min.png" /></span>
+                <div class="title">Okamura</div>
+                <div class="info">Grupo Requiez incorpora a una nueva línea de sillera de origen Japonés: Okamura, dando continuidad a la búsqueda de eficiencia y diseño que nos caracteriza.</div>
+              </div>
+              <div class="item">
+                <h4>2015</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/marcas/logoInfiniti.png" /></span>
+                <div class="title">Infiniti</div>
+                <div class="info">Se incorpora Infiniti, la marca italiana de alto diseño, como una propuesta para el mercado Contract de alto nivel.</div>
+              </div>
+              <div class="item">
+                <h4>2016</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/esr-logo.png" /></span>
+                <div class="title">Empresa Socialmente Responsable</div>
+                <div class="info">La obtención del distintivo de empresa socialmente responsable ESR, se hace presente gracias a la contribución activa y voluntaria del Grupo, para mejorar el entorno social, económico y ambiental en el que se desenvuelve. A la par, se activan las oficinas administrativas en la Ciudad de México.</div>
+              </div>
+              <div class="item">
+                <h4>2017</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/index/image004.png"/></span>
+                <div class="title">Nuevas oficinas y planta</div>
+                <div class="info">Nuevas instalaciones de Corporativo en Urban Center Guadalajara y planta Operativa en el Centro Logístico Jalisco, en el municipio de Acatlán; espacios inteligentes adecuados al crecimiento y necesidades de nuestros consumidores.</div>
+              </div>
+              <div class="item">
+                <h4>2017</h4>
+                <span class="img-timeLine"><img src="/theme_requiez/static/img/historia/quadrifoglio.jpg" /></span>
+                <div class="title">Quadrifoglio</div>
+                <div class="info">Se incorpora Quadrifoglio, marca italiana de alto diseño.  Diseña y fabrica muebles para oficina, ofreciendo la mejor relación calidad - precio. Mesas de despacho direccionales y puestos de trabajo, recepción, salas de reuniones, almacenamiento y accesorios.</div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.owl-carousel').owlCarousel({
+              loop:false,
+              margin:10,
+              nav:true,
+              dots: false,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:2
+                  },
+                  1000:{
+                      items:3
+                  }
+              }
+          })
+
+        });
+      </script>
+    </section>
+  </template>
+
+  <template id="place_into_time_line" inherit_id="website.snippets" name="Time line">
+    <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+      <t t-snippet="theme_requiez.time_line"
+         t-thumbnail="/theme_requiez/static/src/img/ui/snippet_thumb.jpg"/>
+    </xpath>
+  </template>
+</odoo>

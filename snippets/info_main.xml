@@ -2,7 +2,7 @@
 <odoo>
 
   <template id="info_main" name="Info compement main">
-     <section class="info_main">
+     <section class="info_main" style="padding-top: 60px;">
       <div class="container" style="margin-bottom: 20px;">
           <div class="row">
             <div class="col-sm-6 col-md-6 nopadding">
