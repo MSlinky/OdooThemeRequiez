@@ -52,7 +52,7 @@
               </div>
               <div class="item">
                 <h4>2012</h4>
-                <span class="img-timeLine"><img src="/theme_requiez/static/img/index/image001.png"/></span>
+                <span class="img-timeLine"><img style="width: 50px !important;height: auto;" src="/theme_requiez/static/img/index/image001.png"/></span>
                 <div class="title">Almacen en la Ciudad de México</div>
                 <div class="info">Requerido por la distribución en toda la república mexicana se realiza la apertura del almacen en la Ciudad de México.</div>
               </div>
