@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-2 footer-marcas">
               <a href="/Marcas/Quadrifoglio">
-                <img src="/theme_requiez/static/img/marcas/logoQuadri.png"/>
+                <img style="width: 170px;height: auto;" src="/theme_requiez/static/img/marcas/logoQuadri.png"/>
               </a>
             </div>
           </div>

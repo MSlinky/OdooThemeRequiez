@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
             <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_883920_cc.png" />
-            <div><span style="font-size: 60px;position: absolute;left: 25px;top: 128px;">+</span><span class="counter1" style="font-size: 100px; color:#875f80;">0</span></div>
+            <div><span style="font-size: 60px;position: absolute;left: 25px;top: 128px;color: #875f80;">+</span><span class="counter1" style="font-size: 100px; color:#875f80;">0</span></div>
             <div style="font-size: 35px;margin-top: -30px;">Trabajadores</div>
           </div>
           <div class="col-sm-1 col-md-1 nopadding" style="text-align: center;margin-top: 7% !important;">
@@ -23,7 +23,7 @@
           </div>
           <div class="col-sm-3 col-md-3 nopadding" style="text-align: center;">
             <img class="icon-cont" src="/theme_requiez/static/img/sliderMain/noun_694978_cc.png" />
-            <div><span style="font-size: 60px;position: absolute; left: 25px;  top: 128px;">+</span><span class="counter3" style="font-size: 100px; color:#875f80;">0</span></div>
+            <div><span style="font-size: 60px;position: absolute; left: 25px;  top: 128px;color: #875f80;">+</span><span class="counter3" style="font-size: 100px; color:#875f80;">0</span></div>
             <div style="font-size: 35px;margin-top: -30px;">Distribuidores en el país</div>
           </div>
         </div>

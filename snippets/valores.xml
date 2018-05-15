@@ -3,7 +3,7 @@
 
   <template id="valores" name="Valores">
     <section class="valores">
-      <div id="vaores" class="container" style="margin-top: 50px;">
+      <div id="vaores" class="container">
         <div class="row">
           <div class="col-12 col-sm-6 col-md-3">
             <div class="paper">
