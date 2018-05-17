@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-  <template name="Marcas" id="marcas">
+  <template name="Marcas"  id="marcas" page="True">
     <t t-call="website.layout">
       <div id="wrap">
 
@@ -88,12 +88,4 @@
       </div>
     </t>
   </template>
-  <record id="services_page_marcas" model="website.page">
-    <field name="name">Marcas</field>
-    <field name="website_published">True</field>
-    <field name="url">/Marcas</field>
-    <field name="view_id" ref="marcas"/>
-    <field name="sequence" type="int">2</field>
-  </record>
-
 </odoo>

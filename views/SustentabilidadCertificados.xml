@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-  <template name="Sustentabilidad" id="sus_ten">
+  <template name="Sustentabilidad" id="SustentabilidadCertificados" page="True">
     <t t-call="website.layout">
       <div id="wrap">
 
@@ -49,12 +49,10 @@
       </div>
     </t>
   </template>
-  <record id="services_page_sus_ten" model="website.page">
-    <field name="name">Sustentabilidad y Centificados</field>
-    <field name="website_published">True</field>
-    <field name="url">/Sustentabilidad y Centificados</field>
-    <field name="view_id" ref="sus_ten"/>
-    <field name="sequence" type="int">3</field>
+  <record id="services_page_susYcert" model="website.menu">
+    <field name="name">Sustentabilidad y Certificados</field>
+    <field name="url">/SustentabilidadCertificados</field>
+    <field name="parent_id" ref="website.main_menu" />
+    <field name="sequence" type="int">91</field>
   </record>
-
 </odoo>

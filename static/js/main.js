@@ -166,8 +166,41 @@
         _init();
 	});
 
+	function enviar_ajax(datos,link){
+	    $.ajax({
+	      url: link,
+	      type: 'POST',
+	      data: datos,
+	      success: function(text){
+	        alert('Archivos enviados al correo electrónico');
+	      },
+	      error : function (request, error) {
+	        }
+	    });
+	  }
+
+	function form(){
+		$('#comentarios, #enviar').submit(function(e) {
+          e.preventDefault();
+          var data = '';
+          var files = 'files=';
+          for( var i = 0; i < 12; i++ ){
+              if( $(e.target)[0][i].value != 'on' ){
+                  data += $($(e.target)[0][i]).attr('id')+'='+$(e.target)[0][i].value+'&';
+              }else{
+                  if( $($(e.target)[0][i]).is(":checked") == true){
+                      files += $($(e.target)[0][i]).attr('id')+', ';
+                  }
+              }
+          }
+          data += files;
+          enviar_ajax('accion=correoFiles&'+data, 'https://gruporequiez.com/include/controlador.php');
+          //location.reload();
+      });
+	}
+
 	$(document).ready(function(){
-		console.log('main.js?ver=0.0.9');
+		console.log('main.js?ver=0.0.10');
 
 		var flagMenuFix = false;
         $(window).scroll(function(){

@@ -7,7 +7,6 @@
     'views/assets.xml',
     'views/footer.xml',
     'views/news.xml',
-    'views/menu.xml',
     'views/transparencia.xml',
     'views/SustentabilidadCertificados.xml',
     'views/marcas.xml',
@@ -19,5 +18,5 @@
     'snippets/footer_marcas.xml',
   ],
   'category': 'Theme/Creative',
-  'depends': ['website', 'web'],
+  'depends': ['website'],
 } 

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from odoo import http
 from odoo import models, fields, api
 from odoo.http import Response
@@ -93,15 +94,11 @@ class RequiezController(http.Controller):
 			'nombreMarca': data
 		})
 
-	@http.route('/Marcas', auth='public', website=True)
-	def errorMarca(self, **kw):
-		data = {}
-		data['nombre'] = 'Marca no encontrada'
-		data['weburl'] = '-'
-		data['webname'] = '-'
-		data['title'] = '-'
-		data['content'] = "-"
-		data['img'] = '-'
-		return http.request.render('theme_requiez.marcas', {
-			'nombreMarca': data
-		})
+	@http.route('/<name>', auth='public', website=True)
+	def errorMarca(self, name):
+		if name == 'SustentabilidadCertificados':
+			return http.request.render('theme_requiez.SustentabilidadCertificados')
+		elif name == 'Transparencia' :
+			return http.request.render('theme_requiez.transparencia')
+		elif name == 'News' :
+			return http.request.render('theme_requiez.news')
