@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-  <template name="Contacto_requiez"  id="contacto_requiez" page="True">
+  <template name="Contacto"  id="contacto" page="True">
     <t t-call="website.layout">
       <div id="wrap">
 
@@ -207,7 +207,7 @@
       </div>
     </t>
   </template>
-  <record id="services_page_contacto_requiez" model="website.menu">
+  <record id="services_page_contacto" model="website.menu">
     <field name="name">Contacto</field>
     <field name="url">/Contacto</field>
     <field name="parent_id" ref="website.main_menu" />
