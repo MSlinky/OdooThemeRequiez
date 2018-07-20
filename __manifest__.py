@@ -1,7 +1,7 @@
 {
   'name':'Requiez',
   'description': 'Tema para Grupo Requiez',
-  'version':'0.0.2',
+  'version':'0.0.3',
   'author':'Mario Alberto Solano Zavala',
   'data': [
     'views/assets.xml',
