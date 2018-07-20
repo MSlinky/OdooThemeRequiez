@@ -188,6 +188,14 @@
           
           <h3>Política de Devoluciones</h3>
 
+          <div style="text-align:center;margin:20px 0">
+            <h4 style="text-align:center;">¿Qué son los datos personales?</h4>
+            <video width="500" controls="">
+              <source src="/theme_requiez/static/PROTECCION_DE_DATOS_PERSONALES.mp4" type="video/mp4"/>
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+
           <section class="section-width">
             <h2>
                 <div>
