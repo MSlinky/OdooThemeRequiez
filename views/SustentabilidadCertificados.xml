@@ -53,6 +53,6 @@
     <field name="name">Sustentabilidad y Certificados</field>
     <field name="url">/SustentabilidadCertificados</field>
     <field name="parent_id" ref="website.main_menu" />
-    <field name="sequence" type="int">91</field>
+    <field name="sequence" type="int">2</field>
   </record>
 </odoo>

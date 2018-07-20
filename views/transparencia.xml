@@ -286,14 +286,11 @@
             </form>
             </div>
 
-            <script type="text/javascript">
-              $(document).ready(function(){
-                  form();
-              });
-            </script>
-
           </section>
 
+          <script>
+            $(document).ready(form);
+          </script>
         </div>
 
       </div>
@@ -303,6 +300,6 @@
     <field name="name">Transparencia</field>
     <field name="url">/Transparencia</field>
     <field name="parent_id" ref="website.main_menu" />
-    <field name="sequence" type="int">92</field>
+    <field name="sequence" type="int">3</field>
   </record>
 </odoo>

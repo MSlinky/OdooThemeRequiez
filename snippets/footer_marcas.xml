@@ -5,27 +5,27 @@
     <section class="footer_marcas">
       <div class="container">
         <div class="row" style="margin: 80px 0;">
-            <div class="col-md-2 footer-marcas">
+            <div class="col-xs-6 col-md-2 footer-marcas">
               <a href="/Marcas/Requiez">
                 <img src="/theme_requiez/static/img/marcas/req.jpg"/>
               </a>
             </div>
-            <div class="col-md-2 footer-marcas">
+            <div class="col-xs-6 col-md-2 footer-marcas">
               <a href="/Marcas/Labenze">
                 <img src="/theme_requiez/static/img/marcas/labenze.jpg"/>
               </a>
             </div>
-            <div class="col-md-2 footer-marcas">
+            <div class="col-xs-6 col-md-2 footer-marcas">
               <a href="/Marcas/Okamura">
                 <img src="/theme_requiez/static/img/marcas/okamrua_logo-min.png"/>
               </a>
             </div>
-            <div class="col-md-2 footer-marcas">
+            <div class="col-xs-6 col-md-2 footer-marcas">
               <a href="/Marcas/Infiniti">
                 <img src="/theme_requiez/static/img/marcas/logoInfiniti.png"/>
               </a>
             </div>
-            <div class="col-md-2 footer-marcas">
+            <div class="col-xs-6 col-md-2 footer-marcas">
               <a href="/Marcas/Quadrifoglio">
                 <img style="width: 170px;height: auto;" src="/theme_requiez/static/img/marcas/logoQuadri.png"/>
               </a>

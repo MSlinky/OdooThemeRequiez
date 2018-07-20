@@ -196,10 +196,16 @@ a:hover, a:focus {
   .footer-marcas{
     width: 20% !important;
     text-align: center;
+    margin: 15px 0;
   }
   .footer-marcas img{
     max-width: 100% !important;
     height: 40px;
+  }
+  @media(max-width: 768px){
+    .footer-marcas{
+      width: 50% !important;
+    }
   }
 /*  main  */
 

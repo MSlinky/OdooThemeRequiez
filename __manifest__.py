@@ -10,6 +10,7 @@
     'views/transparencia.xml',
     'views/SustentabilidadCertificados.xml',
     'views/marcas.xml',
+    'views/contacto.xml',
     'snippets/main_requiez.xml',
     'snippets/info_main.xml',
     'snippets/cont_teams.xml',

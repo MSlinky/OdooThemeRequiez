@@ -94,6 +94,37 @@ class RequiezController(http.Controller):
 			'nombreMarca': data
 		})
 
+	@http.route(['/Transparencia/send'],type='json',auth="public",website=True)
+	def send(self, **vars):
+
+		import os
+		import sys
+		sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))+"/models")
+
+		from SendFiles import SendFiles
+
+		sendFiles = SendFiles(vars)
+
+		return {
+			'response': vars
+		}
+
+	@http.route(['/Contacto/send'],type='json',auth="public",website=True)
+	def send(self, **vars):
+
+		import os
+		import sys
+		sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))+"/models")
+
+		from SendFiles import SendEmail
+
+		sendFiles = SendEmail(vars)
+
+		return {
+			'response': vars
+		}
+
+
 	@http.route('/<name>', auth='public', website=True)
 	def errorMarca(self, name):
 		if name == 'SustentabilidadCertificados':
@@ -102,3 +133,5 @@ class RequiezController(http.Controller):
 			return http.request.render('theme_requiez.transparencia')
 		elif name == 'News' :
 			return http.request.render('theme_requiez.news')
+		elif name == 'Contacto' :
+			return http.request.render('theme_requiez.contacto')

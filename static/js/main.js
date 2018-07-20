@@ -180,27 +180,83 @@
 	  }
 
 	function form(){
-		$('#comentarios, #enviar').submit(function(e) {
-          e.preventDefault();
-          var data = '';
-          var files = 'files=';
-          for( var i = 0; i < 12; i++ ){
-              if( $(e.target)[0][i].value != 'on' ){
-                  data += $($(e.target)[0][i]).attr('id')+'='+$(e.target)[0][i].value+'&';
-              }else{
-                  if( $($(e.target)[0][i]).is(":checked") == true){
-                      files += $($(e.target)[0][i]).attr('id')+', ';
-                  }
-              }
-          }
-          data += files;
-          enviar_ajax('accion=correoFiles&'+data, 'https://gruporequiez.com/include/controlador.php');
-          //location.reload();
-      });
+        odoo.define('theme_requiez.form', function(require) {
+			"use strict";
+
+
+	        var base = require('web_editor.base');
+			var ajax = require('web.ajax');
+			var core = require('web.core');
+			var _t = core._t;
+
+			$('#comentarios, #enviar').submit(function(e) {
+				e.preventDefault();
+				var data = {
+					files : []
+				};
+				for( var i = 0; i < 12; i++ ){
+					if( $(e.target)[0][i].value != 'on' ){
+						data[ $($(e.target)[0][i]).attr('id') ] = $(e.target)[0][i].value;
+					}else{
+						if( $($(e.target)[0][i]).is(":checked") == true){
+							data['files'].push( $($(e.target)[0][i]).attr('id') ) ;
+						}
+					}
+				}
+
+				ajax.jsonRpc("/Transparencia/send", 'call', {
+					'data': data
+				}).then(function (data) {
+					console.log(data);
+					alert('Mensaje enviado');
+					if(data['response'] != undefined){
+						location.reload();
+					}
+				});
+	      	});
+      	});
+	}
+
+	function formContacto(){
+        odoo.define('theme_requiez.form', function(require) {
+			"use strict";
+
+
+	        var base = require('web_editor.base');
+			var ajax = require('web.ajax');
+			var core = require('web.core');
+			var _t = core._t;
+
+			$('#comentarios, #enviar').submit(function(e) {
+				e.preventDefault();
+				var data = {
+					files : []
+				};
+				for( var i = 0; i < 5; i++ ){
+					if( $(e.target)[0][i].value != 'on' ){
+						data[ $($(e.target)[0][i]).attr('id') ] = $(e.target)[0][i].value;
+					}else{
+						if( $($(e.target)[0][i]).is(":checked") == true){
+							data['files'].push( $($(e.target)[0][i]).attr('id') ) ;
+						}
+					}
+				}
+
+				ajax.jsonRpc("/Contacto/send", 'call', {
+					'data': data
+				}).then(function (data) {
+					console.log(data);
+					alert('Mensaje enviado');
+					if(data['response'] != undefined){
+						location.reload();
+					}
+				});
+	      	});
+      	});
 	}
 
 	$(document).ready(function(){
-		console.log('main.js?ver=0.0.10');
+		console.log('main.js?ver=0.0.11');
 
 		var flagMenuFix = false;
         $(window).scroll(function(){

@@ -53,7 +53,7 @@
   <field name="name">News</field>
   <field name="url">/News</field>
   <field name="parent_id" ref="website.main_menu" />
-  <field name="sequence" type="int">90</field>
+  <field name="sequence" type="int">1</field>
 </record>
 </data>
 </odoo>
