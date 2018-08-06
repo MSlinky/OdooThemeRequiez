@@ -13,7 +13,7 @@ class SendFiles:
 		
 		### Email client
 		fromaddr = "msolano@requiez.com"
-		toaddr = "wwwmario1515@gmail.com"
+		toaddr = vars['data']['correo']
 		msg = MIMEMultipart()
 		
 		msg['From'] = fromaddr
@@ -39,7 +39,7 @@ class SendFiles:
 
 		server = smtplib.SMTP('requiez.com', 587)
 		server.starttls()
-		server.login(fromaddr, "36602317Mario15")
+		server.login(fromaddr, "36602317mario")
 		server.sendmail(fromaddr, toaddr, text)
 
 		### Email requiez
@@ -82,7 +82,7 @@ class SendEmail:
 		
 		server = smtplib.SMTP('requiez.com', 587)
 		server.starttls()
-		server.login(fromaddr, "36602317Mario15")
+		server.login(fromaddr, "36602317mario")
 
 		### Email requiez
 		msg = MIMEMultipart()

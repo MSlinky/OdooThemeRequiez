@@ -95,7 +95,7 @@ class RequiezController(http.Controller):
 		})
 
 	@http.route(['/Transparencia/send'],type='json',auth="public",website=True)
-	def send(self, **vars):
+	def sendTransparencia(self, **vars):
 
 		import os
 		import sys
