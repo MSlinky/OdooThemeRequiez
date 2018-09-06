@@ -51,7 +51,7 @@
             </video>
           </div>-->
           <div class="background-animates" data-depth="0.0" style="width: 100%; height: 100vh;">
-            <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/grupo/fondogrupo2.jpg');width: 100%;bottom: 0%;background-position: 50%;background-repeat: no-repeat;background-size: cover;
+            <span class="container-img animated element2 bounceInLeft" style="background-image: url('/theme_requiez/static/img/sliderMain/grupo/PORTADAGRUPOREQUIEZ.jpg');width: 100%;bottom: 0%;background-position: 50%;background-repeat: no-repeat;background-size: cover;
               {[ if ( mobile ) { ]}
                 height: 100vh;
               {[ }else{ ]}
