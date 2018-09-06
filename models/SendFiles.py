@@ -89,9 +89,9 @@ class SendEmail:
 		
 		msg['From'] = fromaddr
 		msg['To'] = toaddr
-		msg['Subject'] = "Transparencia Grupo Requiez"
+		msg['Subject'] = "Grupo Requiez"
 		
-		body = "Seguimiento de transparencia: \n\n"
+		body = "Contacto: \n\n"
 
 		body += "Nombre: "+vars['data']['nombre']+"\n\n"
 		body += "Correo: "+vars['data']['correo']+"\n\n"
