@@ -8,7 +8,7 @@
           <div class="col-12 col-sm-6 col-md-6">
             <div class="paper" style="min-height: 347px;">
               <h2>AVISO DE CONFIDENCIALIDAD</h2>
-              <p class="text-center" text-align: justify;>
+              <p class="text-center" style="text-align: justify;">
                 La información, incluyendo cualquier archivo adjunto, contenida en este mensaje es confidencial o protegida bajo el secreto profesional y para uso exclusivo de la(s) persona(s) a quien va dirigido. Si el lector de este mensaje no es el interesado, favor de eliminarlo y notificar al remitente, quedando estrictamente prohibido la difusión, distribución o reproducción de este comunicado.
               </p>
             </div>
@@ -16,7 +16,7 @@
           <div class="col-12 col-sm-6 col-md-6">
             <div class="paper" style="min-height: 347px;">
               <h2>CONFIDENTIALITY NOTICE</h2>
-              <p class="text-center" text-align: justify;>
+              <p class="text-center" style="text-align: justify;">
                 The information contained in this electronic message including any attachments is privileged and confidential, and is intended for the use of the individual(s) named above and others who have been specifically authorized to receive it. If you are not the intended recipient, you are hereby notified that any dissemination, distribution or copying of this message is strictly prohibited. If you have received this message by mistake, please destroy it immediately, and notify the sender.
               </p>
             </div>
