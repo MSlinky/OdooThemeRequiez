@@ -8,7 +8,7 @@ from email import encoders
 class SendFiles:
 	
 	def __init__(self, vars):
-		print vars['data']
+		print(vars['data'])
 		
 		
 		### Email client
@@ -75,7 +75,7 @@ class SendFiles:
 class SendEmail:
 	
 	def __init__(self, vars):
-		print vars['data']
+		print(vars['data'])
 
 		fromaddr = "msolano@requiez.com"
 		toaddr = "wwwmario1515@gmail.com"

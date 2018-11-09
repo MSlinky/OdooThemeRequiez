@@ -36,11 +36,11 @@
 		function count(print, max){
 			var counter = { var: 0 };
 			TweenMax.to(counter, 3, {
-				var: max, 
+				var: max,
 				onUpdate: function () {
 					var number = Math.ceil(counter.var);
 					print.html(number);
-				},    
+				},
 				ease:Circ.easeOut
 			});
 		}
@@ -204,7 +204,7 @@
 					}
 				}
 
-				ajax.jsonRpc("/Transparencia/send", 'call', {
+				ajax.jsonRpc("/transparencia/send", 'call', {
 					'data': data
 				}).then(function (data) {
 					console.log(data);
@@ -242,7 +242,7 @@
 					}
 				}
 
-				ajax.jsonRpc("/Contacto/send", 'call', {
+				ajax.jsonRpc("/contacto/send", 'call', {
 					'data': data
 				}).then(function (data) {
 					console.log(data);
@@ -260,7 +260,7 @@
 
 		var flagMenuFix = false;
         $(window).scroll(function(){
-            
+
             if ($(this).scrollTop() > 1 && flagMenuFix == false ) {
               $('.navbar').addClass('header-fix-active');
               flagMenuFix = true;
@@ -269,6 +269,6 @@
               $('.navbar').removeClass('header-fix-active');
             }
         });
-        
+
 
 	});

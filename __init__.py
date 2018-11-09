@@ -4,7 +4,7 @@ from odoo import models, fields, api
 from odoo.http import Response
 
 class RequiezController(http.Controller):
-	@http.route('/Marcas/<name>', auth='public', website=True)
+	@http.route('/marcas/<name>', auth='public', website=True)
 	def index(self, name):
 		data = {}
 		if name == 'Requiez':
@@ -89,12 +89,12 @@ class RequiezController(http.Controller):
 			]
 		else:
 			data['nombre'] = 'Marca no encontrada'
-			
+
 		return http.request.render('theme_requiez.marcas', {
 			'nombreMarca': data
 		})
 
-	@http.route(['/Transparencia/send'],type='json',auth="public",website=True)
+	@http.route(['/transparencia/send'],type='json',auth="public",website=True)
 	def sendTransparencia(self, **vars):
 
 		import os
@@ -109,7 +109,7 @@ class RequiezController(http.Controller):
 			'response': vars
 		}
 
-	@http.route(['/Contacto/send'],type='json',auth="public",website=True)
+	@http.route(['/contacto/send'],type='json',auth="public",website=True)
 	def send(self, **vars):
 
 		import os
@@ -127,11 +127,11 @@ class RequiezController(http.Controller):
 
 	@http.route('/<name>', auth='public', website=True)
 	def errorMarca(self, name):
-		if name == 'SustentabilidadCertificados':
+		if name == 'sustentabilidadCertificados':
 			return http.request.render('theme_requiez.SustentabilidadCertificados')
-		elif name == 'Transparencia' :
+		elif name == 'transparencia' :
 			return http.request.render('theme_requiez.transparencia')
-		elif name == 'News' :
+		elif name == 'news' :
 			return http.request.render('theme_requiez.news')
-		elif name == 'Contacto' :
+		elif name == 'contacto' :
 			return http.request.render('theme_requiez.contacto')

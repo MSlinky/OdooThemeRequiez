@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-  <template name="Transparencia"  id="transparencia" page="True">
+  <template name="transparencia" id="transparencia">
     <t t-call="website.layout">
       <div id="wrap">
 
@@ -304,9 +304,15 @@
       </div>
     </t>
   </template>
-  <record id="services_page_transparencia" model="website.menu">
+  <record id="transparencia_page" model="website.page">
     <field name="name">Transparencia</field>
-    <field name="url">/Transparencia</field>
+    <field name="website_published">True</field>
+    <field name="url">/transparencia</field>
+    <field name="view_id" ref="transparencia"/>
+  </record>
+  <record id="services_page_link_transparencia" model="website.menu">
+    <field name="name">Transparencia</field>
+    <field name="page_id" ref="transparencia_page"/>
     <field name="parent_id" ref="website.main_menu" />
     <field name="sequence" type="int">3</field>
   </record>

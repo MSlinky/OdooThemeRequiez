@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-  <template name="Contacto" id="contacto" page="True">
+  <template name="Contacto" id="contacto">
     <t t-call="website.layout">
       <div id="wrap">
 
@@ -207,9 +207,15 @@
       </div>
     </t>
   </template>
-  <record id="services_page_contacto" model="website.menu">
+  <record id="contacto_page" model="website.page">
     <field name="name">Contacto</field>
-    <field name="url">/Contacto</field>
+    <field name="website_published">True</field>
+    <field name="url">/contacto</field>
+    <field name="view_id" ref="contacto"/>
+  </record>
+  <record id="services_page_link_contacto" model="website.menu">
+    <field name="name">Contacto</field>
+    <field name="page_id" ref="contacto_page"/>
     <field name="parent_id" ref="website.main_menu" />
     <field name="sequence" type="int">4</field>
   </record>
